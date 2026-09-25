@@ -1,0 +1,21 @@
+[memguard] 10.1 GB available, need 3.0 GB for evaluation
+test queries: 552  with questions: 552
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7472.26it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+encoding 81,481 segments with zero-shot...
+
+model         query form                n     MRR     R@1    R@10
+zero-shot     q_conceptual            552   0.086   0.051   0.161
+zero-shot     q_conceptual/sugya      552   0.133   0.087   0.223
+zero-shot     q_practical             552   0.175   0.116   0.295
+zero-shot     q_practical/sugya       552   0.236   0.159   0.399
+zero-shot     ruling                  552   0.412   0.303   0.616
+zero-shot     ruling/sugya            552   0.491   0.377   0.712
+
+saved -> /Users/robin/torah/bert/data/eval_results.json

@@ -1,0 +1,645 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    citecolor=green!50!black,
+    urlcolor=blue!70!black,
+}
+
+\title{\emph{Ein Mishpat} as Training Data:\\
+Contrastive Retrieval over the Babylonian Talmud}
+\author{Robin Langer\thanks{The author thanks Claude (Anthropic) for assistance with
+code development, experiment execution and manuscript preparation.}}
+\date{24 September 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We observe that the \emph{ein mishpat / ner mitsvah} apparatus --- a
+cross-reference system printed in the margins of the Vilna Talmud, mapping
+passages of Talmudic argument to the medieval legal codes that rule from them
+--- constitutes a large, hand-curated, cross-register relevance dataset
+assembled centuries before information retrieval existed. We extract
+\textbf{50{,}214} such pairs from the Sefaria link graph, of which
+\textbf{27{,}013} connect Maimonides' \emph{Mishneh Torah} to the Babylonian
+Talmud at segment granularity with English on both sides, and use them to
+fine-tune a retrieval model.
+
+Measurement precedes training. We establish that lexical and dense retrieval
+score almost identically on code-to-source retrieval (MRR $0.497$ vs $0.500$)
+while succeeding on \emph{different} queries (top-10 overlap $63\%$, union R@10
+$0.836$); that agent-derived semantic chunking into \emph{sugyot} produces a
+large apparent gain which \emph{reverses sign} under a candidate-pool control;
+and --- decisively --- that retrieval measured with code rulings as queries does
+not transfer to the natural questions a user actually asks. That last finding
+redirects the training data: anchors must be question-shaped, not ruling-shaped.
+
+The resulting model, \textbf{torah-embed}, is fine-tuned from
+\texttt{bge-base-en-v1.5} on 33{,}393 triplets with same-daf hard negatives, and
+evaluated on 552 queries from two entirely held-out tractates against the full
+81{,}481-segment corpus. It improves MRR by $+12.2\%$ on ruling queries,
+$+20.0\%$ on practical questions and $\mathbf{+35.9\%}$ on conceptual questions
+--- a gain that rises monotonically as lexical overlap with the target falls
+($0.41 \to 0.30 \to 0.21$). Against a pre-registered criterion requiring that
+question-query gains exceed ruling-query gains, the model passes under both
+credit rules ($+27.9\%$ vs $+12.2\%$ strict; $+28.9\%$ vs $+14.2\%$
+sugya-level). Absolute performance remains modest, and we say so: conceptual
+questions reach MRR $0.116$.
+
+We report the measurements, the four designs they eliminated, and the five
+errors we made obtaining them --- three of which inflated results and were
+caught only by controls fixed in advance.
+\end{abstract}
+
+\section{Introduction}
+
+Retrieval over the Talmud is an unusually well-posed problem with an unusually
+awkward corpus. The Babylonian Talmud is roughly 1.8 million words of Aramaic and
+Hebrew dialectic, organised not by topic but by association; a reader looking for
+the source of a legal ruling must know where to look, and knowing where to look
+is most of the skill.
+
+The motivating application is a retrieval-augmented system that, given a
+question, returns the passage of Talmudic argument bearing on it. Such a system
+needs training data: pairs of (query, relevant passage) at sufficient volume to
+fine-tune an embedding model. Prior work of ours \cite{mathembed} obtained such
+pairs for mathematical retrieval by extracting a knowledge graph from the corpus
+with a language model and deriving (concept, chunk) pairs from it. That
+supervision was synthetic, approximate --- a concept mapped to \emph{every} chunk
+of every relevant paper --- and its coarseness forced reliance on MRR and NDCG
+because Recall@20 sat at 3--4\%.
+
+The Talmud offers something better, and it is the observation this paper is built
+around.
+
+\subsection{\emph{Ein mishpat} is already a relevance dataset}
+
+Printed in the margin of every page of the Vilna Talmud is a cross-reference
+apparatus, \emph{ein mishpat / ner mitsvah}, compiled in the sixteenth century by
+Joshua Boaz. It maps each passage of Talmudic argument to the places in the
+medieval legal codes --- Maimonides' \emph{Mishneh Torah}, the \emph{Tur}, the
+\emph{Shulchan Arukh} --- that rule from it. Sefaria has digitised this apparatus
+as typed links at segment granularity.
+
+This is, in modern terms, a relevance dataset with properties one would struggle
+to buy:
+
+\begin{itemize}[itemsep=2pt]
+\item \textbf{Hand-curated} by domain experts, over centuries, with no
+      model in the loop.
+\item \textbf{Cross-register by construction.} One side is terse codified law;
+      the other is discursive dialectic. They share little surface vocabulary,
+      so the pairs test semantic rather than lexical matching.
+\item \textbf{Segment-level, not document-level.} Relevant sets are small ---
+      mean $2.6$ targets per source --- so Recall@$k$ is a sharp metric rather
+      than the blunt instrument it became in \cite{mathembed}.
+\item \textbf{Exactly the deployment task.} ``Where does this ruling come from''
+      is the question the apparatus was built to answer.
+\end{itemize}
+
+The analogy to SPECTER2 \cite{specter2} is close and, we think, load-bearing:
+SPECTER2 improves a scientific encoder by contrastive training on citation
+triplets. \emph{Ein mishpat} is a citation graph. What follows is an attempt to
+establish, by measurement, whether that analogy survives contact with the data.
+
+\subsection{Contributions}
+
+This is a measurement paper and its contributions are measurements.
+
+\begin{enumerate}[itemsep=2pt]
+\item A census of the available supervision: 50{,}214 cross-register pairs,
+      and a coverage analysis showing which parts of the canon are usable in
+      English at all (\S\ref{sec:census}).
+\item Baselines showing that lexical and dense retrieval are equal in aggregate
+      and complementary in detail (\S\ref{sec:baselines}).
+\item A negative result: agent-derived semantic chunking does not improve
+      retrieval, and the apparent improvement inverts under a proper control
+      (\S\ref{sec:chunking}).
+\item A query-distribution result: the benchmark task is not the deployed task,
+      and the gap is large but partly an artifact of metric granularity
+      (\S\ref{sec:questions}).
+\item A methodological account, including five errors we made and how each was
+      caught (\S\ref{sec:method}).
+\end{enumerate}
+
+\section{Corpus and supervision census}\label{sec:census}
+
+\subsection{Coverage determines scope}
+
+All texts were obtained from the Sefaria API. The corpus was fixed as English
+translation; this rules out rabbinic-Hebrew encoders such as BEREL
+\cite{berel} and admits the mature English retrieval-model ecosystem, at the
+cost of depending on translation coverage.
+
+Coverage is extremely uneven. Table~\ref{tab:coverage} reports the fraction of
+Hebrew segments having an English counterpart, measured per segment.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrl}
+\toprule
+Text & English coverage & Consequence \\
+\midrule
+Talmud Bavli (Davidson) & 100\% & corpus \\
+\emph{Mishneh Torah} (Touger) & 97.9\% & \textbf{gold training set} \\
+Mishnah & 93.9\% & positive control only (see below) \\
+\emph{Tosafot} & 27\% & dropped \\
+Rashi on the Talmud & 9.5\% & dropped \\
+\emph{Shulchan Arukh} & 5.4\% & dropped \\
+\bottomrule
+\end{tabular}
+\caption{English coverage by source, measured at segment granularity over the
+Sefaria API. An earlier estimate of 89\% for \emph{Shulchan Arukh} was obtained
+by sampling chapters 1, 50 and 150 of each book; early chapters are translated
+and the long tail is not.}
+\label{tab:coverage}
+\end{table}
+
+The consequence is severe and clarifying. Rashi and \emph{Tosafot} would have
+supplied millions of pairs and are unusable. But those pairs carried a hazard:
+a Rashi comment opens with a \emph{dibbur hamatchil}, a lemma copied verbatim
+from the Talmudic text, so training on them risks learning substring matching
+rather than semantics. Choosing English deletes the bulk of the supervision and
+the dominant leakage channel together.
+
+\subsection{The census}
+
+Links were harvested from the Sefaria API and filtered to the 37 tractates of
+the Bavli proper.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Source & Unique pairs & Distinct sources & Distinct Bavli targets \\
+\midrule
+\emph{Mishneh Torah} $\to$ Bavli & 27{,}601 & 9{,}675 & 21{,}300 \\
+\emph{Shulchan Arukh} $\to$ Bavli & 15{,}860 & 6{,}968 & 12{,}494 \\
+Mishnah $\to$ Bavli & 6{,}753 & 2{,}932 & 6{,}056 \\
+\midrule
+Combined & \textbf{50{,}214} & --- & 27{,}573 \\
+\bottomrule
+\end{tabular}
+\caption{Cross-register link census. All 37 tractates are covered; 79 of 88
+\emph{Mishneh Torah} books contribute. The figure is a floor: \emph{Shulchan
+Arukh, Even HaEzer} is absent entirely, its index using a schema node for which
+our chapter enumeration returned nothing.}
+\label{tab:census}
+\end{table}
+
+Of the \emph{Mishneh Torah} pairs, 25{,}448 carry the link type \emph{ein
+mishpat / ner mitsvah} --- that is, the supervision is dominated by the classical
+apparatus rather than by modern editorial additions.
+
+\subsection{Two pair types are unusable, for opposite reasons}
+
+\emph{Shulchan Arukh} pairs are numerous but only 855 of 15{,}860 have English on
+the source side. They are dropped.
+
+Mishnah pairs are well covered but \textbf{lexically duplicate}: the Gemara
+quotes each mishnah verbatim at the head of its sugya and the Davidson edition
+reproduces the quotation, so source and target are frequently the same English
+sentences. Mean token overlap is $0.62$, with $34/158$ sampled pairs above $0.9$.
+Training on them teaches copy detection.
+
+They are nonetheless retained, \textbf{as a positive control}: a correctly wired
+lexical retriever must score near ceiling on duplicate pairs. It does
+(\S\ref{sec:baselines}), which is how we know the harness is sound.
+
+\emph{Mishneh Torah} pairs are clean by the same measure: mean token overlap
+$0.42$, and none of 171 sampled pairs above $0.9$. This is the gold set:
+\textbf{27{,}013} pairs over $\approx 9{,}500$ distinct queries with English on
+both sides --- two orders of magnitude more supervision than \cite{mathembed}
+was trained on, and human rather than model derived.
+
+\section{Baselines}\label{sec:baselines}
+
+\subsection{Setup}
+
+The corpus is the full English Bavli: \textbf{81{,}481} segments, mean 99 words,
+median 96, 90th percentile 149. Segments are short enough that no chunking is
+required for a 512-token encoder.
+
+Queries are source-side texts; relevance is the link. Retrieval is over the
+entire corpus with no tractate hint or candidate pruning. We report BM25
+($k_1=1.5$, $b=0.75$) and \texttt{bge-base-en-v1.5} \cite{bge} used zero-shot,
+with the prescribed query instruction prefix.
+
+\subsection{Results}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{3}{c}{BM25} & \multicolumn{3}{c}{\texttt{bge-base} zero-shot} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Split & MRR & R@1 & R@10 & MRR & R@1 & R@10 \\
+\midrule
+\emph{Mishneh Torah} (n=171) & 0.497 & 0.380 & 0.731 & 0.500 & 0.374 & 0.737 \\
+Mishnah, control (n=158) & 0.740 & 0.684 & 0.892 & 0.684 & 0.601 & 0.842 \\
+\emph{Shulchan Arukh} (n=171) & 0.358 & 0.269 & 0.550 & 0.416 & 0.327 & 0.596 \\
+\bottomrule
+\end{tabular}
+\caption{Zero-shot baselines over 81{,}481 segments. The Mishnah row is a
+control: BM25 approaching ceiling on lexically duplicate pairs confirms the
+harness is correct.}
+\label{tab:baselines}
+\end{table}
+
+Two observations. First, the task is hard and unsolved: neither method exceeds
+MRR $0.5$ on the gold split. Second, and less expected, dense retrieval offers
+\emph{no aggregate advantage} over BM25 on cross-register retrieval, despite the
+pairs having been selected precisely because they share little vocabulary.
+
+\subsection{The aggregate hides the finding}
+
+Scoring 0.497 and 0.500, the two methods look interchangeable. They are not.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lr}
+\toprule
+\emph{Mishneh Torah}, n=171 & R@10 \\
+\midrule
+BM25 alone & 73.1\% \\
+\texttt{bge-base} alone & 73.7\% \\
+Both & 63.2\% \\
+\textbf{Union (either)} & \textbf{83.6\%} \\
+Neither & 16.4\% \\
+\bottomrule
+\end{tabular}
+\caption{Complementarity at rank 10. Found by BM25 only: 17 queries. By dense
+only: 18. The symmetry is striking.}
+\label{tab:complement}
+\end{table}
+
+Ten points of recall are available in the union that neither method reaches
+alone, and an unweighted z-score fusion realises part of it with no training at
+all (MRR $0.497/0.500 \to 0.527$).
+
+We record this as a methodological warning as much as a result. A single mean
+over a heterogeneous query set supported the conclusion ``dense adds nothing'',
+which is false. The useful question about any retriever here is not whether the
+average moved but \emph{which queries it fixes}.
+
+\section{Semantic chunking: a negative result}\label{sec:chunking}
+
+\subsection{Motivation and protocol}
+
+A Sefaria segment averages 99 words and an \emph{amud} holds 15.2 of them, while
+a \emph{sugya} --- a complete unit of argument --- spans five to fifteen. Every
+indexed unit is therefore a fragment of an argument. We tested whether merging
+segments into sugyot improves retrieval.
+
+Boundaries were chosen by language-model agents that read the text. Nine agents
+processed 32 amudim of tractate Berakhot under a protocol designed for
+verifiability:
+
+\begin{itemize}[itemsep=2pt]
+\item Agents return \textbf{reference ranges, never text}, making corruption of
+      the corpus structurally impossible.
+\item Boundaries fall only at existing segment edges; since Sefaria segments
+      never break mid-sentence, mid-sentence cuts cannot occur.
+\item Output must \textbf{partition} the input: every segment in exactly one
+      chunk. This is checked mechanically.
+\item Each chunk carries a generated heading giving its context in the
+      surrounding argument, prepended to the body before embedding.
+\item Headings may not name any later legal code, since the evaluation measures
+      exactly the link to those codes.
+\end{itemize}
+
+The protocol produced 216 chunks with \textbf{zero partition failures} and zero
+heading leaks. Merge ratio was 26.4 segments to 6.8 chunks per amud.
+
+\subsection{The control matters more than the result}
+
+Chunking reduces the candidate pool (844 segments $\to$ 209 chunks in the
+evaluated region). A smaller pool mechanically improves rank-based metrics. We
+therefore report both raw metrics and \textbf{matched-fraction recall}: the top
+1\% of the pool in each condition (8 segments vs 2 chunks), which also
+approximately matches retrieved text volume.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llrrrr}
+\toprule
+Condition & Method & Pool & MRR & R@10 & \textbf{R@1\%} \\
+\midrule
+A. Segments & BM25 & 844 & 0.580 & 0.788 & \textbf{0.747} \\
+A. Segments & dense & 844 & 0.527 & 0.818 & \textbf{0.818} \\
+B. Sugya chunks & BM25 & 209 & 0.683 & 0.919 & 0.677 \\
+B. Sugya chunks & dense & 209 & 0.587 & 0.838 & 0.596 \\
+C. Chunks + heading & BM25 & 209 & 0.681 & 0.919 & 0.687 \\
+C. Chunks + heading & dense & 209 & 0.595 & 0.838 & \textbf{0.646} \\
+D. Heading only & dense & 209 & 0.415 & 0.707 & 0.384 \\
+\bottomrule
+\end{tabular}
+\caption{Chunking A/B, \emph{Mishneh Torah} queries, n=99, Berakhot 2a--17b.
+Raw MRR and R@10 favour chunking; matched-fraction recall reverses the verdict.}
+\label{tab:ab}
+\end{table}
+
+Read raw, chunking is a triumph: MRR $0.580 \to 0.683$, R@10 $0.788 \to 0.919$.
+Under the matched-fraction control it is a \emph{loss}: dense R@1\% falls
+$0.818 \to 0.646$.
+
+The mechanism is dilution. A chunk containing the gold segment also contains
+three or four others, and the embedding averages toward their mean. This is the
+precision cost of context, and it is real.
+
+We emphasise that the confound did not merely inflate the effect; \textbf{it
+reversed its sign}. Reported without the control, this experiment would have
+shown a ten-point gain and written semantic chunking into the system.
+
+\subsection{Two results worth keeping}
+
+Conditions B and C share a pool, so their comparison is unconfounded. Headings
+help dense retrieval modestly and at no cost (R@1\% $0.596 \to 0.646$) and do
+nothing for BM25, which cannot exploit context it can only match lexically.
+
+Condition D is a \textbf{behavioural leakage detector}. If the agents had encoded
+answers in the headings, heading-only retrieval would be excellent. It scores
+MRR $0.415$ against $0.595$ for heading-plus-body --- substantially worse than
+the text itself. This is stronger evidence than a string check, and we recommend
+retaining such a condition whenever generated context is added to an index.
+
+\subsection{Resolution: retrieve narrow, present wide}
+
+The metric assumes segment-level precision, because \emph{ein mishpat} links
+point at segments. Semantic chunking disputes that premise, arguing the natural
+unit is the argument. The evaluation therefore encodes the assumption the design
+contests.
+
+We resolve this by separating the two roles. The \textbf{segment} remains the
+indexing and retrieval unit; the \textbf{sugya} becomes the display and context
+unit. The system retrieves a segment and returns the enclosing argument. This
+takes the precision of fine granularity and the readability of coarse, and uses
+the chunking work rather than discarding it.
+
+\section{The benchmark task is not the deployed task}\label{sec:questions}
+
+\subsection{A paired test}
+
+Every measurement above uses a \emph{Mishneh Torah} ruling as the query. A
+deployed system receives a question. To isolate phrasing from target, we took 40
+rulings with known gold sugyot and had agents rewrite each as the question a
+learner would ask, in plain English, avoiding the ruling's technical vocabulary,
+then scored retrieval against \emph{the same} gold.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llrrr}
+\toprule
+Credit & Method & ruling & question & change \\
+\midrule
+strict & BM25 (MRR) & 0.514 & 0.145 & $-72\%$ \\
+strict & dense (MRR) & 0.451 & 0.271 & $-40\%$ \\
+strict & BM25 (R@10) & 0.750 & 0.325 & $-57\%$ \\
+strict & dense (R@10) & 0.725 & 0.500 & $-31\%$ \\
+\midrule
+sugya & BM25 (R@10) & 0.800 & 0.375 & $-53\%$ \\
+sugya & \textbf{dense (R@10)} & 0.750 & \textbf{0.675} & $\mathbf{-10\%}$ \\
+sugya & dense (MRR) & 0.607 & 0.346 & $-43\%$ \\
+\bottomrule
+\end{tabular}
+\caption{Paired comparison, n=40, same gold targets. ``Sugya'' credit accepts a
+retrieved segment within $\pm 3$ of a gold segment, approximating the unit the
+system displays.}
+\label{tab:questions}
+\end{table}
+
+\subsection{What survives}
+
+Under strict scoring the collapse looks total. It is not, and the difference
+matters for what to build.
+
+\textbf{BM25 genuinely collapses}, on both metrics under both credit rules. Its
+advantage in Table~\ref{tab:baselines} was an artifact of using rulings as
+queries: a ruling shares vocabulary with its source in a way a question does not.
+
+\textbf{Dense retrieval largely survives.} Scored at the granularity the system
+displays, its recall falls only 10\%. What degrades is ranking: MRR falls 43\%.
+Dense retrieval finds the right argument for a natural question nearly as often
+as for a ruling, and cannot put it first.
+
+Notably, token overlap with the gold passage is unchanged between query forms
+($0.41$ vs $0.42$). The collapse is not explained by vocabulary loss but by
+\emph{specificity}: a question is short and its words are common, so it carries
+few discriminative terms.
+
+\subsection{A third query distribution}
+
+We also ran 26 questions drawn from the author's own writing --- theological and
+historical rather than practical (\emph{Why did Jacob change his name to
+Israel?}; \emph{Is the promise of the land conditional on how we behave?}). No
+gold labels exist for these; results were inspected qualitatively and are
+reproduced in full in \texttt{questions.pdf}.
+
+Retrieval was substantially better than the benchmark predicted. Two examples:
+\emph{Why did Jacob change his name to Israel?} returns Berakhot 13a:1, the sugya
+on precisely that question; \emph{Who counts as the firstborn?} returns Bekhorot
+47b:14 on firstborn status for inheritance.
+
+Top-1 agreement between BM25 and dense was \textbf{2 of 26}, against 63\% on the
+synthetic benchmark --- complementarity is far stronger on out-of-distribution
+queries. On the Akedah question the two retrievers returned the two halves of a
+two-part question: BM25 the sacrifice narrative, dense the promise of
+descendants ``as the stars''. A fused ranking would have buried one of them.
+
+\section{Method, and five errors}\label{sec:method}
+
+We record our errors because each was caught by the same signal --- a number that
+flattered the project --- and because the practices that caught them are the
+transferable part of this work.
+
+\begin{enumerate}[itemsep=3pt]
+\item \textbf{A self-fulfilling denominator.} Coverage was computed as
+      non-empty over segments-\emph{returned}; texts with no English version
+      returned nothing and left the denominator. The metric could only ever
+      report 100\%.
+\item \textbf{An over-broad filter.} Counting every title under
+      \texttt{Talmud > Bavli} as Talmud included commentaries \emph{on} the
+      Talmud, inflating the census from 27{,}601 to 39{,}204 pairs. It was
+      noticed because a commentary appeared in a ranking of tractates.
+\item \textbf{A systematic constraint.} Requiring chunks to partition within an
+      \emph{amud} forced every sugya crossing a page break to be severed --- the
+      exact failure the exercise existed to prevent, occurring at all 5{,}349
+      boundaries.
+\item \textbf{An unrepresentative sample.} \emph{Shulchan Arukh} coverage
+      sampled chapters 1, 50 and 150; the estimate was 89\% and the truth 5.4\%.
+\item \textbf{A sign-reversing confound.} The chunking A/B without pool-size
+      control (\S\ref{sec:chunking}).
+\end{enumerate}
+
+Four practices proved to carry their weight:
+
+\begin{itemize}[itemsep=2pt]
+\item \textbf{Pre-registration.} Acceptance criteria were written before results
+      existed --- the chunking verifier before the agents returned, the
+      decision rule before the dense baseline, the matched-fraction control
+      before the A/B.
+\item \textbf{Adversarial controls in every table.} The BM25 row as a
+      lexical-leakage alarm; the Mishnah positive control; heading-only
+      retrieval as a leakage detector.
+\item \textbf{Structural rather than procedural guarantees.} Agents returning
+      ranges rather than text cannot corrupt a corpus, whatever they do.
+\item \textbf{Asking agents what they were unsure about.} Errors 3 above, and a
+      prompt defect in which a stated ``typical'' chunk count became a target
+      that fragmented arguments, were \emph{invisible} to every mechanical
+      check: a size-motivated split and a severed sugya both partition
+      perfectly. Both surfaced only through agents volunteering doubt about work
+      that verified clean. An A/B on the corrected prompt confirmed the effect:
+      23\% fewer chunks, never more on any amud.
+\end{itemize}
+
+\section{The model}\label{sec:model}
+
+\subsection{Setup}
+
+\textbf{Base:} \texttt{bge-base-en-v1.5} (110M parameters) --- the strongest
+English retriever at BERT-base scale that fine-tunes within 16\,GB of unified
+memory. \textbf{Loss:} MultipleNegativesRankingLoss. \textbf{Anchors:} both
+ruling-shaped and question-shaped, the latter generated by language-model agents
+in two registers (practical and conceptual) and oversampled $3\times$ to offset
+their smaller number. \textbf{Negatives:} up to three per query drawn from the
+\emph{same daf}, non-linked --- random in-batch negatives are trivially easy in
+this corpus, since a random segment is another tractate on another subject.
+
+Training: 33{,}393 triplets, 1 epoch, batch 16, max length 192, lr $2\times
+10^{-5}$ with 10\% warmup, 2{,}087 steps in 1h25m on Apple MPS. Loss fell
+$0.641 \to 0.303$. Batch size was forced by memory; the method prefers 64 or
+more, and this is the most likely source of further gain.
+
+\subsection{Evaluation protocol, fixed before training}
+
+Splitting is by \textbf{whole tractate} --- Sanhedrin and Yevamot held out
+entirely --- because splitting by link leaks: both endpoints of a held-out link
+still appear via their other links. The 809 queries with targets on both sides
+were \emph{discarded} rather than assigned. Retrieval is over all 81{,}481
+segments with no pruning and no tractate hint; pruning to the held-out tractates
+would shrink the pool $20\times$ and inflate every metric, which is precisely
+the confound that reversed the chunking result in \S\ref{sec:chunking}.
+
+\subsection{Results}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Query form & BM25 & zero-shot & \textbf{torah-embed} & gain \\
+\midrule
+ruling & 0.430 & 0.412 & \textbf{0.462} & $+12.2\%$ \\
+practical question & 0.090 & 0.175 & \textbf{0.211} & $+20.0\%$ \\
+conceptual question & 0.042 & 0.086 & \textbf{0.116} & $\mathbf{+35.9\%}$ \\
+\midrule
+ruling, sugya credit & 0.509 & 0.491 & \textbf{0.561} & $+14.2\%$ \\
+practical, sugya credit & 0.125 & 0.236 & \textbf{0.292} & $+23.6\%$ \\
+conceptual, sugya credit & 0.063 & 0.133 & \textbf{0.178} & $+34.2\%$ \\
+\bottomrule
+\end{tabular}
+\caption{MRR on 552 held-out queries from Sanhedrin and Yevamot, retrieved over
+81{,}481 segments. R@10 moves in step: conceptual questions $0.161 \to 0.221$
+($+37.1\%$), practical $0.295 \to 0.377$ ($+27.6\%$).}
+\label{tab:results}
+\end{table}
+
+\subsection{The pre-registered criterion}
+
+Before training we fixed the following: \emph{the model must beat zero-shot on
+held-out question queries by a margin exceeding its gain on ruling queries.} A
+model improving only on rulings has learned the benchmark rather than the task
+--- and since a ruling shares vocabulary with its source sugya in a way a
+question does not, that is the easy win to optimise for accidentally.
+
+\begin{center}
+\begin{tabular}{lrrl}
+\toprule
+credit & rulings & questions & verdict \\
+\midrule
+strict & $+12.2\%$ & $+27.9\%$ & \textbf{pass} \\
+sugya-level & $+14.2\%$ & $+28.9\%$ & \textbf{pass} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{The gradient is the evidence}
+
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+register & token overlap with target & MRR gain \\
+\midrule
+ruling & 0.41 & $+12\%$ \\
+practical question & 0.30 & $+20\%$ \\
+conceptual question & 0.21 & $\mathbf{+36\%}$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Improvement rises monotonically as lexical overlap falls. The model gained most
+exactly where surface matching helps least --- the signature of semantic
+learning, and a pattern a memorising model cannot produce, since memorisation
+would show the opposite gradient. Against BM25 the contrast is starker still:
+$2.3\times$ on practical questions and $2.8\times$ on conceptual ones, where
+BM25 reaches MRR $0.042$ and is effectively unusable.
+
+\subsection{What this is not}
+
+Absolute performance is modest. Conceptual questions reach MRR $0.116$ and R@1
+$0.067$: the correct sugya ranks first roughly seven times in a hundred. This is
+a measurable improvement on a hard task, not a solved problem.
+
+Three further caveats. The held-out tractates are heavy in status-chain material
+(levirate marriage, capital courts) that our question-writers independently
+reported as hardest to phrase naturally; we verified the split is not biased on
+living-law content ($0.28$ test vs $0.26$ train), but the task is genuinely
+harder there. The test questions were generated from the rulings by the same
+process as the training questions, so the \emph{relative} comparison is sound
+while the absolute level is an optimistic bound. And one epoch at batch 16 is a
+hardware compromise, not a considered choice.
+
+\section{Conclusion}
+
+The \emph{ein mishpat} apparatus is a hand-curated cross-register relevance
+dataset of some fifty thousand pairs, assembled for exactly the retrieval task a
+modern system wants to perform. Fine-tuning on it produces a model that is
+better at the task users actually perform --- asking questions --- than at the
+benchmark it was trained against, by a factor of more than two.
+
+Equally load-bearing is what measurement eliminated: dense-only retrieval
+(lexical and dense are complementary, union R@10 $0.836$ against $\approx 0.73$
+each); sugya-level indexing (a ten-point apparent gain that inverts under a
+pool-size control); ruling-anchored training (the benchmark task is not the
+deployed task); and exact-segment evaluation (it scores a capability the product
+does not provide, understating dense retrieval by roughly half). Each of the
+four would have looked correct on an uncontrolled measurement, and one of them
+looked correct on ours until the control was applied.
+
+\begin{thebibliography}{9}
+\bibitem{mathembed} R.~Langer. \emph{Knowledge-Graph-Guided Fine-Tuning of
+Embedding Models for Mathematical Document Retrieval}. 2026.
+\url{https://huggingface.co/RobBobin/math-embed}
+\bibitem{specter2} A.~Singh et al. \emph{SciRepEval: A Multi-Format Benchmark
+for Scientific Document Representations}. EMNLP, 2023.
+\bibitem{bge} S.~Xiao et al. \emph{C-Pack: Packaged Resources To Advance General
+Chinese Embedding}. 2023.
+\bibitem{berel} A.~Shmidman et al. \emph{Introducing BEREL: BERT Embeddings for
+Rabbinic-Encoded Language}. 2022.
+\bibitem{sefaria} Sefaria: a Living Library of Jewish Texts.
+\url{https://www.sefaria.org}
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,402 @@
+[
+ {
+  "id": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary 10:13",
+  "q_practical": "How many sheep do I need before I owe a share of their wool to the priest?",
+  "q_conceptual": "Why does a flock's wool tithe depend on a minimum weight per animal, not just the total number of animals?"
+ },
+ {
+  "id": "Mishneh Torah, Nazariteship 9:13",
+  "q_practical": "If my vow depended on having a son and it's unclear whether it worked out, what happens to the offering I already set aside?",
+  "q_conceptual": "Why does an uncertain outcome leave a promised offering's status unresolved instead of simply canceling it?"
+ },
+ {
+  "id": "Mishneh Torah, Hiring 3:10",
+  "q_practical": "If my hired caretaker let my animal wander somewhere risky and it later got stolen there, is he responsible?",
+  "q_conceptual": "Why does a caretaker's liability depend on whether his carelessness created the opportunity for loss, not just on the loss itself?"
+ },
+ {
+  "id": "Mishneh Torah, Admission into the Sanctuary 1:13",
+  "q_practical": "If I just finished a work shift during a holiday, can I get a haircut before the holiday is over?",
+  "q_conceptual": "Why does the exact timing of when a restriction lifts matter for whether a grooming rule still applies?"
+ },
+ {
+  "id": "Mishneh Torah, Sacrificial Procedure 5:4",
+  "q_practical": "Does it matter exactly where within the courtyard an animal is slaughtered for an offering?",
+  "q_conceptual": "Why is a roof unsuitable for this even though it's still within the sacred grounds?"
+ },
+ {
+  "id": "Mishneh Torah, Offerings for Unintentional Transgressions 15:4",
+  "q_practical": "If I followed an official ruling that turned out to be wrong, and the officials themselves agreed with it, am I personally responsible?",
+  "q_conceptual": "Why does sharing responsibility for a mistaken decision change who owes atonement for it?"
+ },
+ {
+  "id": "Mishneh Torah, Defilement of Foods 4:2",
+  "q_practical": "Does a single drop of contaminated liquid ruin a whole batch of food, and how much would I have to actually drink for it to affect me?",
+  "q_conceptual": "Why can something contaminate food in a tiny amount but require a much larger amount to affect a person who drinks it?"
+ },
+ {
+  "id": "Mishneh Torah, Oaths 4:14",
+  "q_practical": "I broke two separate promises that only partly overlap \u2014 do I owe a penalty for the second one too?",
+  "q_conceptual": "Why doesn't breaking a broader promise create separate liability when it only covers part of what's already been dealt with?"
+ },
+ {
+  "id": "Mishneh Torah, Kings and Wars 7:11",
+  "q_practical": "If someone is exempt from being drafted, are they also excused from other war-related civic duties like road repair?",
+  "q_conceptual": "Why would a single exemption cover two different kinds of obligation instead of just one?"
+ },
+ {
+  "id": "Mishneh Torah, Eruvin 1:10",
+  "q_practical": "How much food do I need to contribute to a shared neighborhood arrangement for it to count?",
+  "q_conceptual": "Why is the minimum amount defined by how much of a meal it makes up, rather than a fixed weight?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 6:7",
+  "q_practical": "How many days of unusual bleeding does it take before it counts as a more serious ongoing condition?",
+  "q_conceptual": "Why does the specific wording of an old text set the exact numeric threshold for a medical category?"
+ },
+ {
+  "id": "Mishneh Torah, Blessings 3:4",
+  "q_practical": "What blessing do I say before eating something like dumplings or porridge made from grain?",
+  "q_conceptual": "Why does cooking grain into a dish put it in a different blessing category than eating it as bread?"
+ },
+ {
+  "id": "Mishneh Torah, Oaths 8:9",
+  "q_practical": "If I lied under oath about how I came to have something, to avoid paying for damage to it, what do I owe?",
+  "q_conceptual": "Why does falsely claiming a rental or loan arrangement create liability, even when the underlying claim wasn't about money?"
+ },
+ {
+  "id": "Mishneh Torah, Robbery and Lost Property 1:5",
+  "q_practical": "If I stole a piece of lumber and used it to build something, do I have to tear the structure down to return it?",
+  "q_conceptual": "Why would the strict rule demand destroying a whole building over one component, and why was that requirement later relaxed?"
+ },
+ {
+  "id": "Mishneh Torah, Ritual Slaughter 14:7",
+  "q_practical": "If I covered something up as required and then wind uncovered it again, do I need to cover it a second time?",
+  "q_conceptual": "Why does responsibility depend on whether a person or nature caused something to become exposed again?"
+ },
+ {
+  "id": "Mishneh Torah, Slaves 4:13",
+  "q_practical": "Can a father sell his adult daughter into servitude after she's already been married and widowed?",
+  "q_conceptual": "Why does a status carried over from an earlier arrangement determine whether a later sale is permitted?"
+ },
+ {
+  "id": "Mishneh Torah, Sanctification of the New Month 2:1",
+  "q_practical": "If a father and son both see the same event, can they testify about it together?",
+  "q_conceptual": "Why send related witnesses to court at all if their combined testimony isn't normally accepted?"
+ },
+ {
+  "id": "Mishneh Torah, Sacrificial Procedure 10:3",
+  "q_practical": "Who is allowed to eat the meat left over from certain temple offerings, and where?",
+  "q_conceptual": "Why are some offerings restricted to being eaten by priests in one specific location?"
+ },
+ {
+  "id": "Mishneh Torah, Defilement of Foods 5:7",
+  "q_practical": "If I cut branches to use as roofing material, does the stem count as part of what can pick up contamination?",
+  "q_conceptual": "Why does a handle or stem sometimes count as part of an object for contamination purposes, and why not in this case?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 3:10",
+  "q_practical": "Is it okay to have a flat portrait or engraving of a person at home, as opposed to a three-dimensional statue?",
+  "q_conceptual": "Why does a purely decorative human statue raise the same concern as an idol, when a painting of the same figure doesn't?"
+ },
+ {
+  "id": "Mishneh Torah, Leavened and Unleavened Bread 6:9",
+  "q_practical": "Can I use bread that was originally baked for a different purpose to fulfill my obligation to eat matzah?",
+  "q_conceptual": "Why does the baker's original intention when making bread affect whether it can later count as ritual matzah?"
+ },
+ {
+  "id": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 9:13",
+  "q_practical": "What kind of thread is required to sew together the parchment sheets of a religious scroll?",
+  "q_conceptual": "Why is sinew from an animal that wasn't properly slaughtered still acceptable for this particular use?"
+ },
+ {
+  "id": "Mishneh Torah, Those Who Defile Bed or Seat 12:3",
+  "q_practical": "If I hand my house key to someone careless about cleanliness rules while I'm away, does everything inside become contaminated?",
+  "q_conceptual": "Why doesn't handing over a key count as handing over everything behind the door?"
+ },
+ {
+  "id": "Mishneh Torah, Those Who Defile Bed or Seat 8:7",
+  "q_practical": "If someone with a contagious-type impurity and someone without it are both standing on the same shaky bench, does the second person become impure too?",
+  "q_conceptual": "Why does a surface's stability determine whether impurity can transfer between two people who aren't touching?"
+ },
+ {
+  "id": "Mishneh Torah, Substitution 4:1",
+  "q_practical": "If an animal set aside as an offering has babies, do the babies count as offerings too?",
+  "q_conceptual": "Why would the offspring of a sacrificial animal inherit its sacred status, but not the offspring's own offspring?"
+ },
+ {
+  "id": "Mishneh Torah, Sales 6:13",
+  "q_practical": "Can a wife forgive a debt owed to her if that debt was part of what she brought into the marriage?",
+  "q_conceptual": "Why does marriage change who has the authority to cancel a debt?"
+ },
+ {
+  "id": "Mishneh Torah, Testimony 6:8",
+  "q_practical": "Can a legal document's certification be written out before the signatures on it are officially verified?",
+  "q_conceptual": "Why does the act of signing the verification matter more than the content of what's written?"
+ },
+ {
+  "id": "Mishneh Torah, Shofar, Sukkah and Lulav 5:7",
+  "q_practical": "Can I use wide wooden planks as the roof covering for my hut?",
+  "q_conceptual": "Why does a board's width, rather than whether it's manufactured like ordinary building material, decide if it can be used as roofing?"
+ },
+ {
+  "id": "Mishneh Torah, Ownerless Property and Gifts 12:9",
+  "q_practical": "If someone has lifetime use of property that goes to someone else afterward, can that second person block them from selling it now?",
+  "q_conceptual": "Why does the current holder's right to sell survive even though someone else is entitled to whatever's left?"
+ },
+ {
+  "id": "Mishneh Torah, Blessings 1:16",
+  "q_practical": "Is it okay to say 'Amen' after a blessing I recited myself?",
+  "q_conceptual": "Why is affirming your own words normally seen as inappropriate, except at the very end of a series of blessings?"
+ },
+ {
+  "id": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary 3:9",
+  "q_practical": "What were the birds people carried alongside their harvest offering actually used for?",
+  "q_conceptual": "Why decorate a food offering with animals that end up being treated completely differently from the offering itself?"
+ },
+ {
+  "id": "Mishneh Torah, Mourning 5:8",
+  "q_practical": "How soon after a death can someone who needs the income go back to work?",
+  "q_conceptual": "Why does the restriction on working during mourning loosen after three days instead of staying constant?"
+ },
+ {
+  "id": "Mishneh Torah, Sabbatical Year and the Jubilee 1:13",
+  "q_practical": "If I improve my field during a year when farming is restricted, am I penalized \u2014 and does that penalty pass on to my heir?",
+  "q_conceptual": "Why does breaking a land-rest rule cost you the following year's use of the field, but not carry over to whoever inherits it?"
+ },
+ {
+  "id": "Mishneh Torah, Ritual Slaughter 1:16",
+  "q_practical": "Does it matter which direction I run my finger along a blade to check if it's smooth enough for slaughter?",
+  "q_conceptual": "Why wouldn't a flaw only detected on the return pass invalidate a cut that was already made?"
+ },
+ {
+  "id": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary 12:17",
+  "q_practical": "If a non-Jew's donkey has a firstborn, do they need to redeem it the way a Jewish owner would?",
+  "q_conceptual": "Why does an animal's special sacred status depend on who owns it, not just on being firstborn?"
+ },
+ {
+  "id": "Mishneh Torah, Substitution 1:7",
+  "q_practical": "Can a woman, not just a man, designate a substitute animal for a sacrifice?",
+  "q_conceptual": "Why would this particular ritual power apply equally to men and women when many similar powers don't?"
+ },
+ {
+  "id": "Mishneh Torah, Eruvin 3:4",
+  "q_practical": "If two properties share a wall with ladders on either side, do they need separate arrangements to carry things between them on the Sabbath?",
+  "q_conceptual": "Why does a wall's thickness change how far apart two access points can be before separate permissions are required?"
+ },
+ {
+  "id": "Mishneh Torah, Sanctification of the New Month 3:12",
+  "q_practical": "Why do some communities observe two days of a holiday instead of just one?",
+  "q_conceptual": "Why would authorities standardize the number of festival days everywhere instead of applying the true rule differently town by town?"
+ },
+ {
+  "id": "Mishneh Torah, Borrowing and Deposit 4:9",
+  "q_practical": "If I lend someone an item to look after and their household member loses it by accident, who is responsible \u2014 me, them, or that person?",
+  "q_conceptual": "Why does entrusting something to someone implicitly include their household, and how does that shift liability when things go wrong?"
+ },
+ {
+  "id": "Mishneh Torah, Gifts to the Poor 8:1",
+  "q_practical": "If I promise to give money to charity, how soon do I actually have to hand it over?",
+  "q_conceptual": "Why is a spoken pledge to charity treated as urgent and binding, the same as a formal vow?"
+ },
+ {
+  "id": "Mishneh Torah, Trespass 2:3",
+  "q_practical": "What kinds of temple offerings can someone get in trouble for using for their own benefit?",
+  "q_conceptual": "Why does misusing something dedicated to sacred use count as a distinct violation from ordinary theft?"
+ },
+ {
+  "id": "Mishneh Torah, Sacrificial Procedure 19:15",
+  "q_practical": "Since there's no temple standing today, would slaughtering an animal for that purpose still count as a serious violation?",
+  "q_conceptual": "Why would a location's sanctity remain in force even after the building itself no longer exists?"
+ },
+ {
+  "id": "Mishneh Torah, Trespass 5:8",
+  "q_practical": "If I dedicate an entire forest for sacred use, does that include the birds' nests in the trees?",
+  "q_conceptual": "Why would dedicating land automatically extend to everything living on it, down to a nest in a tree?"
+ },
+ {
+  "id": "Mishneh Torah, Inheritances 1:1",
+  "q_practical": "Who inherits first when someone dies \u2014 the children, or someone else?",
+  "q_conceptual": "Why does this inheritance order rank sons ahead of daughters instead of dividing the estate equally?"
+ },
+ {
+  "id": "Mishneh Torah, Slaves 8:6",
+  "q_practical": "If someone sells their servant to a buyer who plans to take them abroad, what happens to the servant?",
+  "q_conceptual": "Why is the buyer penalized for this sale rather than the seller?"
+ },
+ {
+  "id": "Mishneh Torah, Reading the Shema 1:2",
+  "q_practical": "What's the order of the sections recited in this daily prayer?",
+  "q_conceptual": "Why is this specific order chosen \u2014 what logic connects one section to the next?"
+ },
+ {
+  "id": "Mishneh Torah, Ritual Slaughter 1:3",
+  "q_practical": "Do fish need to be ritually slaughtered before I can eat them?",
+  "q_conceptual": "Why are fish and locusts treated differently from other animals in terms of what makes them permissible to eat?"
+ },
+ {
+  "id": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary 2:17",
+  "q_practical": "How much of my harvest am I supposed to set aside as a first-fruits gift?",
+  "q_conceptual": "Why is there no fixed minimum by strict law, but a customary fraction by later practice?"
+ },
+ {
+  "id": "Mishneh Torah, Ritual Slaughter 7:6",
+  "q_practical": "How do you tell if an animal's lung has a hidden defect that would make the meat unfit to eat?",
+  "q_conceptual": "Why does testing whether air passes through a section of lung reveal whether it's actually damaged?"
+ },
+ {
+  "id": "Mishneh Torah, Hiring 9:4",
+  "q_practical": "If I hire workers and then discover the job can't actually be done, do I still have to pay them?",
+  "q_conceptual": "Why does whether the employer checked conditions beforehand determine who bears the loss?"
+ },
+ {
+  "id": "Mishneh Torah, Other Sources of Defilement 13:2",
+  "q_practical": "If I go for a ritual dip without thinking specifically about what I'm doing it for, what am I actually allowed to do afterward?",
+  "q_conceptual": "Why does the same physical act of immersion produce different levels of purity depending on what was in the person's mind?"
+ },
+ {
+  "id": "Mishneh Torah, Paschal Offering 10:10",
+  "q_practical": "Can people be counted as sharing a portion of a sacrifice based on parts like the brain or bone marrow?",
+  "q_conceptual": "Why does whether a body part can be removed without breaking a bone determine if people can be assigned to share it?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Foods 7:12",
+  "q_practical": "Are both layers of the fatty membrane around the kidney forbidden to eat, or just one?",
+  "q_conceptual": "Why would two similar-looking membranes carry very different levels of severity for the same violation?"
+ },
+ {
+  "id": "Mishneh Torah, Prayer and the Priestly Blessing 7:8",
+  "q_practical": "If I didn't actually do the thing a particular morning blessing refers to, do I still recite it?",
+  "q_conceptual": "Why is each of these blessings tied to actually performing the matching action, rather than said by rote regardless?"
+ },
+ {
+  "id": "Mishneh Torah, Oaths 8:3",
+  "q_practical": "If someone accuses me of something serious and I falsely deny it under oath, am I liable even though I wouldn't have owed anything by simply admitting it?",
+  "q_conceptual": "Why does a false oath create its own liability, separate from whatever the original accusation was actually about?"
+ },
+ {
+  "id": "Mishneh Torah, Sabbatical Year and the Jubilee 8:2",
+  "q_practical": "Can I sell farming tools to someone I know doesn't follow the rules of the sabbatical year?",
+  "q_conceptual": "Why does a tool's eligibility to be sold depend on whether it's used exclusively for one prohibited task?"
+ },
+ {
+  "id": "Mishneh Torah, Oaths 4:15",
+  "q_practical": "I broke a narrow promise and separately a broader, overlapping one \u2014 does the second violation trigger its own penalty?",
+  "q_conceptual": "Why does an oath covering a larger amount make a later violation of the smaller, included amount not separately punishable?"
+ },
+ {
+  "id": "Mishneh Torah, Diverse Species 9:9",
+  "q_practical": "If I'm just riding in a cart pulled by two different kinds of yoked animals, without driving it myself, am I doing anything wrong?",
+  "q_conceptual": "Why does merely sitting in the wagon count as causing the animals to pull together, even without directing them?"
+ },
+ {
+  "id": "Mishneh Torah, Firstlings 5:9",
+  "q_practical": "If I buy an animal using money set aside for a religious tithe, does its future offspring carry any special obligation?",
+  "q_conceptual": "Why does the source of the money used to buy an animal affect the legal status of that animal's future young?"
+ },
+ {
+  "id": "Mishneh Torah, Neighbors 5:10",
+  "q_practical": "Can I widen the entrance to a shared courtyard, or split one entrance into two, if my neighbor objects?",
+  "q_conceptual": "Why does an entrance's size affect privacy between people who share access to the same space?"
+ },
+ {
+  "id": "Mishneh Torah, Inheritances 11:10",
+  "q_practical": "Are guardians required to provide children in their care with things like a prayer shawl or holiday items?",
+  "q_conceptual": "Why must guardians provide for time-bound religious items but not for open-ended charitable obligations?"
+ },
+ {
+  "id": "Mishneh Torah, Gifts to the Poor 8:8",
+  "q_practical": "Can someone outside the community donate money or materials to a religious institution?",
+  "q_conceptual": "Why does the type of gift \u2014 cash versus a specific physical object \u2014 change whether it gets returned to an outside donor?"
+ },
+ {
+  "id": "Mishneh Torah, Offerings for Unintentional Transgressions 2:12",
+  "q_practical": "If someone slaughters the wrong kind of animal by mistake for a holiday offering on a day when that's normally restricted, are they liable?",
+  "q_conceptual": "Why does who the offering was intended for change whether a mistake on a restricted day counts as a punishable error?"
+ },
+ {
+  "id": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 8:2",
+  "q_practical": "How much blank space needs to be left between paragraphs when hand-copying a religious scroll?",
+  "q_conceptual": "Why do the two types of paragraph breaks need different spacing depending on where they fall on the line?"
+ },
+ {
+  "id": "Mishneh Torah, Fasts 4:6",
+  "q_practical": "What do I say during the special prayer added on a communal fast day?",
+  "q_conceptual": "Why does this prayer reach back to a specific ancestral story as its central reference point?"
+ },
+ {
+  "id": "Mishneh Torah, Daily Offerings and Additional Offerings 8:19",
+  "q_practical": "If one of a matching set of sacrificial animals is missing, can the rest still be offered?",
+  "q_conceptual": "Why does slaughtering change whether these offerings depend on one another, when beforehand they didn't?"
+ },
+ {
+  "id": "Mishneh Torah, Slaves 9:7",
+  "q_practical": "Can an employer tell a live-in worker they won't provide food, leaving the worker to fend for themselves?",
+  "q_conceptual": "Why does it matter whether a servant belongs to the husband himself or came into the household through his wife, for who has to feed them?"
+ },
+ {
+  "id": "Mishneh Torah, Sacrificial Procedure 5:21",
+  "q_practical": "Who gets to keep the hide from an animal offered as a burnt sacrifice?",
+  "q_conceptual": "Why does it matter whether an offering came from an individual or from communal funds, for who receives the hide?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Foods 6:12",
+  "q_practical": "Is it safe by these rules to eat raw meat if I treat it with salt and vinegar first?",
+  "q_conceptual": "Why does the salting method used for cooked meat differ from the vinegar treatment used for raw meat?"
+ },
+ {
+  "id": "Mishneh Torah, Rest on the Tenth of Tishrei 3:1",
+  "q_practical": "Can I wash my face on the holiest fast day of the year?",
+  "q_conceptual": "Why do a new bride and a ruling king get exceptions to a bathing restriction that applies to everyone else?"
+ },
+ {
+  "id": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary 4:12",
+  "q_practical": "If the water source or tree that produced my harvest is gone by the time I bring my offering, do I still recite the formal declaration?",
+  "q_conceptual": "Why does losing the source of your produce change whether you make the declaration, even though you still bring the gift itself?"
+ },
+ {
+  "id": "Mishneh Torah, Oaths 6:4",
+  "q_practical": "Can someone send a representative to formally get released from a promise, instead of showing up in person?",
+  "q_conceptual": "Why can a husband act as his wife's agent to express regret over her vow, but not arrange the release process on his own initiative beforehand?"
+ },
+ {
+  "id": "Mishneh Torah, Ritual Slaughter 6:9",
+  "q_practical": "If a needle is found in an animal's liver during inspection, is the meat still okay to eat?",
+  "q_conceptual": "Why does the exact location and shape of an embedded object determine whether an organ counts as damaged?"
+ },
+ {
+  "id": "Mishneh Torah, Paschal Offering 10:7",
+  "q_practical": "Is it a problem to break the bone in the fatty part of the tail of a holiday sacrifice?",
+  "q_conceptual": "Why does a bone-breaking prohibition depend on whether that part is actually eaten?"
+ },
+ {
+  "id": "Mishneh Torah, Eruvin 6:18",
+  "q_practical": "Can someone set up a shared travel-boundary arrangement on my behalf without asking me first?",
+  "q_conceptual": "Why does the timing of when you're told about an arrangement made on your behalf determine whether you can rely on it?"
+ },
+ {
+  "id": "Mishneh Torah, Things Forbidden on the Altar 6:5",
+  "q_practical": "If a sacrificial item becomes invalid or contaminated, can it be exchanged for money?",
+  "q_conceptual": "Why does whether something was already placed in a sacred vessel change whether it can be redeemed for cash?"
+ },
+ {
+  "id": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary 4:7",
+  "q_practical": "If I buy a field and the seller sells it again to someone else later, do I still get to make the formal declaration when bringing first fruits?",
+  "q_conceptual": "Why does the number of times land has changed hands across a fixed cycle of years affect whether a declaration is made?"
+ },
+ {
+  "id": "Mishneh Torah, Tithes 12:1",
+  "q_practical": "If I forgot to check whether food I bought was properly tithed before a day when I can't fix it, can I just take the seller's word for it?",
+  "q_conceptual": "Why would someone's word be trusted on a day of rest specifically, when it normally wouldn't be relied on?"
+ },
+ {
+  "id": "Mishneh Torah, Ownerless Property and Gifts 10:2",
+  "q_practical": "Can a dying person's instructions to give away a debt owed to them be carried out without the usual paperwork transfer?",
+  "q_conceptual": "Why do a dying person's spoken wishes carry more binding force than the ordinary rules for transferring a debt?"
+ },
+ {
+  "id": "Mishneh Torah, Ownerless Property and Gifts 6:8",
+  "q_practical": "If my spouse leaves me their entire estate as a gift, does that replace what I'd otherwise be owed under our marriage contract?",
+  "q_conceptual": "Why does receiving a full gift of property cancel a separate financial claim instead of adding to it?"
+ }
+]

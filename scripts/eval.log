@@ -1,0 +1,20 @@
+[memguard] 9.0 GB available, need 3.0 GB for evaluation
+test queries: 552  with questions: 552
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12204.87it/s]
+encoding 81,481 segments with torah-embed...
+
+model         query form                n     MRR     R@1    R@10
+bm25          q_conceptual            552   0.042   0.024   0.074
+bm25          q_conceptual/sugya      552   0.063   0.040   0.111
+bm25          q_practical             552   0.090   0.051   0.168
+bm25          q_practical/sugya       552   0.125   0.072   0.234
+bm25          ruling                  552   0.430   0.332   0.614
+bm25          ruling/sugya            552   0.509   0.411   0.708
+torah-embed   q_conceptual            552   0.116   0.067   0.221
+torah-embed   q_conceptual/sugya      552   0.178   0.116   0.299
+torah-embed   q_practical             552   0.211   0.125   0.377
+torah-embed   q_practical/sugya       552   0.292   0.196   0.475
+torah-embed   ruling                  552   0.462   0.357   0.681
+torah-embed   ruling/sugya            552   0.561   0.457   0.770
+
+saved -> /Users/robin/torah/bert/data/eval_results.json

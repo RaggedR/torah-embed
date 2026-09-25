@@ -1,0 +1,402 @@
+[
+ {
+  "id": "Mishneh Torah, Sacrificial Procedure 18:8",
+  "q_practical": "Can I sacrifice an animal and its baby on the same day?",
+  "q_conceptual": "Why do newborn animals need to wait before they can be offered?"
+ },
+ {
+  "id": "Mishneh Torah, Things Forbidden on the Altar 3:5",
+  "q_practical": "Can I offer a lamb that looks like a goat?",
+  "q_conceptual": "Why would looking like the wrong species count as a defect?"
+ },
+ {
+  "id": "Mishneh Torah, Murderer and the Preservation of Life 11:7",
+  "q_practical": "Is it safe to drink water that was left uncovered overnight?",
+  "q_conceptual": "Why are some liquids dangerous to leave out but not others?"
+ },
+ {
+  "id": "Mishneh Torah, Admission into the Sanctuary 7:2",
+  "q_practical": "Does a mark on my ear stop me from serving as a priest?",
+  "q_conceptual": "Why does a blemish on the earlobe matter but not on the skin around it?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Foods 15:7",
+  "q_practical": "If a drop of forbidden wine falls into a whole barrel, is the whole barrel ruined?",
+  "q_conceptual": "Why does a tiny amount of something forbidden spoil a huge batch?"
+ },
+ {
+  "id": "Mishneh Torah, Daily Offerings and Additional Offerings 7:6",
+  "q_practical": "Do we harvest the grain at night even if it falls on the Sabbath?",
+  "q_conceptual": "Why must this particular harvest happen at night rather than during the day?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Foods 7:21",
+  "q_practical": "What happens to a butcher who keeps leaving forbidden fat on the meat?",
+  "q_conceptual": "Why is a butcher's word trusted about whether meat has been properly cleaned?"
+ },
+ {
+  "id": "Mishneh Torah, Tithes 14:5",
+  "q_practical": "Can I use bread I bought today to cover the tithe on bread I bought yesterday?",
+  "q_conceptual": "Why does it matter if the bread came from different batches of wheat?"
+ },
+ {
+  "id": "Mishneh Torah, Inheritances 3:2",
+  "q_practical": "If a rented cow gives birth before the estate is divided, who gets the calf?",
+  "q_conceptual": "Why does the eldest son's double portion include animals born after the parent died?"
+ },
+ {
+  "id": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 10:7",
+  "q_practical": "Can my spouse and I be intimate in a room where a holy scroll is kept?",
+  "q_conceptual": "Why does a sacred book need to be covered or removed before something so private?"
+ },
+ {
+  "id": "Mishneh Torah, Sales 3:15",
+  "q_practical": "If I buy someone's plants but not the pot they're growing in, when do I actually own them?",
+  "q_conceptual": "Why does simply picking something up count as owning it in one case but not the other?"
+ },
+ {
+  "id": "Mishneh Torah, Red Heifer 9:12",
+  "q_practical": "Does it ruin the water if a bird drinks from it?",
+  "q_conceptual": "Why would one animal's saliva ruin water while another's doesn't?"
+ },
+ {
+  "id": "Mishneh Torah, Eruvin 6:10",
+  "q_practical": "I locked my eruv food in a cabinet and lost the key — is my eruv still valid?",
+  "q_conceptual": "Why would placing something on top of a growing plant make it invalid?"
+ },
+ {
+  "id": "Mishneh Torah, Sales 12:4",
+  "q_practical": "I found out I overpaid for something by a lot — can I get my money back?",
+  "q_conceptual": "Why does the law draw the line at exactly one sixth overpayment?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Foods 17:16",
+  "q_practical": "If a non-Jew starts cooking meat and a Jew just stirs the pot, is the food allowed?",
+  "q_conceptual": "Why does doing even a tiny part of the cooking change the food's status?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 10:13",
+  "q_practical": "How big does the afterbirth need to be for it to count in this law?",
+  "q_conceptual": "What exactly is being described here as covering the unborn baby?"
+ },
+ {
+  "id": "Mishneh Torah, Sheqel Dues 1:1",
+  "q_practical": "I'm broke — do I still have to pay my yearly dues?",
+  "q_conceptual": "Why can't a poor person just pay this obligation in installments?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 5:25",
+  "q_practical": "My wife didn't bleed the first time but did the second time — what does that mean?",
+  "q_conceptual": "How can you tell the difference between two different causes of bleeding?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 20:16",
+  "q_practical": "Can rumors alone disqualify someone from serving as a priest?",
+  "q_conceptual": "Why does the order in which witnesses come forward determine who wins?"
+ },
+ {
+  "id": "Mishneh Torah, Borrowing and Deposit 7:4",
+  "q_practical": "I'm storing a friend's Torah scroll — how often should I unroll and check it?",
+  "q_conceptual": "Why does the caretaker's duty change depending on whether the owner is nearby?"
+ },
+ {
+  "id": "Mishneh Torah, Plaintiff and Defendant 16:10",
+  "q_practical": "Can friends team up to fake a debt claim and split the money?",
+  "q_conceptual": "Why is conspiring to defraud someone singled out as 'distancing from falsehood'?"
+ },
+ {
+  "id": "Mishneh Torah, Reading the Shema 3:2",
+  "q_practical": "Can I say my prayers in the bathroom?",
+  "q_conceptual": "Why does physical distance from a body change whether you may pray?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 11:18",
+  "q_practical": "Can I hold my wife's hand during the days after her period before she goes to the mikveh?",
+  "q_conceptual": "Why does the restriction on touching continue even after the bleeding itself stops?"
+ },
+ {
+  "id": "Mishneh Torah, The Chosen Temple 3:13",
+  "q_practical": "What did the frames holding up the showbread on the Table look like?",
+  "q_conceptual": "What was the function of these gold frames in the Temple's bread display?"
+ },
+ {
+  "id": "Mishneh Torah, Vows 9:21",
+  "q_practical": "If I swear off getting anything from 'Abraham's descendants,' does that include everyone in his family?",
+  "q_conceptual": "Why does a vow phrased so broadly end up meaning something much narrower?"
+ },
+ {
+  "id": "Mishneh Torah, Offerings for Unintentional Transgressions 9:12",
+  "q_practical": "I might have eaten sacred meat by accident — do I owe an offering?",
+  "q_conceptual": "Why does eating the second of two identical pieces create liability when the first one didn't?"
+ },
+ {
+  "id": "Mishneh Torah, Rest on the Tenth of Tishrei 2:2",
+  "q_practical": "Does it matter what kind of food I eat if I break the Yom Kippur fast?",
+  "q_conceptual": "Why does the penalty for eating on this day ignore whether the food itself was kosher?"
+ },
+ {
+  "id": "Mishneh Torah, Ritual Slaughter 4:13",
+  "q_practical": "A non-Jewish worker started slaughtering the animal and I finished it — is the meat kosher?",
+  "q_conceptual": "Why does it matter who makes the first cut rather than just who finishes the job?"
+ },
+ {
+  "id": "Mishneh Torah, Torah Study 3:9",
+  "q_practical": "How should someone who really wants to learn well behave?",
+  "q_conceptual": "Why is wisdom compared to water that only collects in low places?"
+ },
+ {
+  "id": "Mishneh Torah, Oaths 5:13",
+  "q_practical": "I swore not to do something I'm actually required to do — what happens now?",
+  "q_conceptual": "Why is an oath that contradicts an existing obligation treated as pointless rather than binding?"
+ },
+ {
+  "id": "Mishneh Torah, Sales 24:5",
+  "q_practical": "I bought some trees on someone else's land — do I also get the ground underneath them?",
+  "q_conceptual": "Why does owning trees come with rights to the land, but growing branches must be trimmed back?"
+ },
+ {
+  "id": "Mishneh Torah, Heave Offerings 12:5",
+  "q_practical": "A drop of sacred oil fell into my jug of ordinary oil — is the whole jug ruined?",
+  "q_conceptual": "Why does the ratio between the two liquids determine whether the mixture is disqualified?"
+ },
+ {
+  "id": "Mishneh Torah, The Chosen Temple 6:11",
+  "q_practical": "Could a king alone decide to expand Jerusalem's borders?",
+  "q_conceptual": "Who had the authority to expand the boundaries of the holy city?"
+ },
+ {
+  "id": "Mishneh Torah, Blessings 7:13",
+  "q_practical": "What blessing do we say when incense is brought in after a meal?",
+  "q_conceptual": "Why is a separate blessing needed for incense on top of the grace after meals?"
+ },
+ {
+  "id": "Mishneh Torah, Other Sources of Defilement 1:7",
+  "q_practical": "Can I touch a dead animal's horns or hide without becoming ritually impure?",
+  "q_conceptual": "Why do bones and hide become impure only while still attached to the flesh?"
+ },
+ {
+  "id": "Mishneh Torah, Robbery and Lost Property 12:5",
+  "q_practical": "I dumped my own wine to save my friend's spilling honey — am I owed anything?",
+  "q_conceptual": "Why does a verbal agreement change how much the honey's owner has to pay?"
+ },
+ {
+  "id": "Mishneh Torah, Other Sources of Defilement 1:1",
+  "q_practical": "If I carry a dead animal, does that make my clothes impure even if I never touch it directly?",
+  "q_conceptual": "Why does carrying something impure affect your clothes differently than just touching it?"
+ },
+ {
+  "id": "Mishneh Torah, Torah Study 6:12",
+  "q_practical": "I insulted a respected teacher — what happens to me?",
+  "q_conceptual": "Why is a public ban used to punish disrespect rather than a private apology?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Foods 5:14",
+  "q_practical": "I found a live calf inside a cow I just slaughtered — do I need to slaughter it separately?",
+  "q_conceptual": "Why would touching the ground change whether the fetus needs its own ritual slaughter?"
+ },
+ {
+  "id": "Mishneh Torah, Other Sources of Defilement 8:1",
+  "q_practical": "If I touch something that's already impure, does my whole body become impure or just my hands?",
+  "q_conceptual": "Why is the impurity of hands treated as a separate, lesser category than whole-body impurity?"
+ },
+ {
+  "id": "Mishneh Torah, Defilement by Leprosy 6:5",
+  "q_practical": "Two people had skin spots isolated for observation, and now we can't tell whose grew — what do we do?",
+  "q_conceptual": "Why does uncertainty favor purity before a diagnosis but impurity after one?"
+ },
+ {
+  "id": "Mishneh Torah, Divorce 10:2",
+  "q_practical": "My divorce document might be technically flawed and I've already remarried — do I need to leave my new husband?",
+  "q_conceptual": "Why would a divorce be invalid by rabbinic decree but the remarriage still stand?"
+ },
+ {
+  "id": "Mishneh Torah, Slaves 8:18",
+  "q_practical": "Can I teach Torah to someone I hold as a servant?",
+  "q_conceptual": "Why doesn't teaching someone Torah automatically free them?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Foods 2:8",
+  "q_practical": "If I eat a piece cut from a living animal, how much do I need to eat before it's punishable?",
+  "q_conceptual": "Why can small amounts from different sources be combined to reach the forbidden threshold?"
+ },
+ {
+  "id": "Mishneh Torah, Scroll of Esther and Hanukkah 4:14",
+  "q_practical": "I can only afford oil for one — Shabbat candles or the Chanukah lamp? Which comes first?",
+  "q_conceptual": "Why does peace in the home outrank even publicizing a miracle?"
+ },
+ {
+  "id": "Mishneh Torah, Tithes 2:7",
+  "q_practical": "I added water to my wine dregs and got back more liquid than I put in — do I owe tithes on the extra?",
+  "q_conceptual": "Why does the exact quantity recovered determine whether tithes are owed?"
+ },
+ {
+  "id": "Mishneh Torah, Defilement by a Corpse 3:13",
+  "q_practical": "Can I touch a dead body's hair or teeth without becoming impure?",
+  "q_conceptual": "Why are hair and nails treated differently from the rest of the body?"
+ },
+ {
+  "id": "Mishneh Torah, One Who Injures a Person or Property 6:10",
+  "q_practical": "If I sneeze on someone and it damages their things, am I liable just like if I'd hit them?",
+  "q_conceptual": "Why does liability change once the spit or mucus has already landed on the ground?"
+ },
+ {
+  "id": "Mishneh Torah, Vessels 3:3",
+  "q_practical": "Does a giant glass jar still count as able to become ritually impure?",
+  "q_conceptual": "Why are glass containers held to a stricter standard than wooden ones?"
+ },
+ {
+  "id": "Mishneh Torah, Rebels 6:10",
+  "q_practical": "My parent has dementia and I can't handle caring for them myself anymore — is it okay to hand off their care to someone else?",
+  "q_conceptual": "What obligation does a child have toward a parent who can no longer recognize them?"
+ },
+ {
+  "id": "Mishneh Torah, Heave Offerings 11:8",
+  "q_practical": "Can someone else touch or massage me after I've put sacred oil on my skin?",
+  "q_conceptual": "Why is contact allowed with the oil once it's already absorbed into the skin?"
+ },
+ {
+  "id": "Mishneh Torah, Red Heifer 1:8",
+  "q_practical": "My red heifer died before I could use it — can I at least sell the hide?",
+  "q_conceptual": "Why is redeeming the hide preferred over just discarding the animal?"
+ },
+ {
+  "id": "Mishneh Torah, Second Tithes and Fourth Year's Fruit 8:1",
+  "q_practical": "I bought a meal from tithe money — do I get to keep the hide separately?",
+  "q_conceptual": "Why does buying from a merchant versus a private seller change who the hide belongs to?"
+ },
+ {
+  "id": "Mishneh Torah, Firstlings 1:4",
+  "q_practical": "Do I need to formally declare my animal's firstborn calf sacred, or does that happen on its own?",
+  "q_conceptual": "Why is holiness applied automatically here instead of requiring a person's declaration?"
+ },
+ {
+  "id": "Mishneh Torah, Diverse Species 9:2",
+  "q_practical": "I keep two different kinds of animals in the same pen and they started mating — do I have to pull them apart?",
+  "q_conceptual": "Why is it worse to arrange crossbreeding through someone else than to simply not prevent it?"
+ },
+ {
+  "id": "Mishneh Torah, Defilement by a Corpse 2:11",
+  "q_practical": "Does old bone dust from a grave make me impure if I just touch it?",
+  "q_conceptual": "Why does this kind of impurity spread by carrying or overhead but not by direct touch?"
+ },
+ {
+  "id": "Mishneh Torah, Theft 2:3",
+  "q_practical": "Someone stole my donkey before I'd redeemed it from its firstborn status — do they still owe double?",
+  "q_conceptual": "Why does an animal not yet fully owned still trigger the double-payment theft penalty?"
+ },
+ {
+  "id": "Mishneh Torah, Trespass 6:5",
+  "q_practical": "Several of us each took a bit of wool off a dedicated animal one after another — are we all liable?",
+  "q_conceptual": "Why can multiple people each be fully liable for misusing the same consecrated object?"
+ },
+ {
+  "id": "Mishneh Torah, Festival Offering 1:1",
+  "q_practical": "What am I required to bring when I go up to the Temple for a festival?",
+  "q_conceptual": "Why does showing up empty-handed count as breaking a prohibition, not just missing a mitzvah?"
+ },
+ {
+  "id": "Mishneh Torah, Sacrificial Procedure 19:5",
+  "q_practical": "If part of an offering was never set aside, am I still liable for taking the rest outside the Temple?",
+  "q_conceptual": "Why does separating a portion first change someone's liability for what happens to the rest?"
+ },
+ {
+  "id": "Mishneh Torah, Sales 6:10",
+  "q_practical": "I sold someone an IOU I'm owed — does that mean they now legally own the debt?",
+  "q_conceptual": "Why can't physically handing over a piece of paper transfer an intangible debt?"
+ },
+ {
+  "id": "Mishneh Torah, Prayer and the Priestly Blessing 5:6",
+  "q_practical": "Where in my house should I stand to pray?",
+  "q_conceptual": "Why does prayer need a fixed, private orientation rather than just any spot?"
+ },
+ {
+  "id": "Mishneh Torah, The Chosen Temple 6:9",
+  "q_practical": "Were the tunnels under the Temple considered holy ground?",
+  "q_conceptual": "Why does an underground passage's holiness depend on which direction it opens toward?"
+ },
+ {
+  "id": "Mishneh Torah, Robbery and Lost Property 4:4",
+  "q_practical": "Witnesses saw my neighbor enter my house but not what he took out — can I hold him liable?",
+  "q_conceptual": "Why would admitting he entered but denying he stole anything actually help his case?"
+ },
+ {
+  "id": "Mishneh Torah, Blessings 2:8",
+  "q_practical": "What extra words do I add to grace after meals when eating at a mourner's home?",
+  "q_conceptual": "Why does comforting mourners get folded into a blessing about thanking God?"
+ },
+ {
+  "id": "Mishneh Torah, Prayer and the Priestly Blessing 15:4",
+  "q_practical": "Can a priest bless the congregation right after having a glass of wine?",
+  "q_conceptual": "Why is this blessing linked to sobriety the same way Temple service was?"
+ },
+ {
+  "id": "Mishneh Torah, The Chosen Temple 5:15",
+  "q_practical": "What were the exact dimensions of the space around the altar?",
+  "q_conceptual": "How far apart were the altar, ramp and walls positioned in the Temple courtyard?"
+ },
+ {
+  "id": "Mishneh Torah, Defilement by Leprosy 13:1",
+  "q_practical": "Can a leather bag get contaminated by this kind of skin-disease-like blemish?",
+  "q_conceptual": "Why do only certain materials become affected by this kind of contamination?"
+ },
+ {
+  "id": "Mishneh Torah, Plaintiff and Defendant 16:2",
+  "q_practical": "A witness on my property deed wants to claim back just one strip of the land — can he?",
+  "q_conceptual": "Why can a judge claim ignorance of a document's contents but a witness cannot?"
+ },
+ {
+  "id": "Mishneh Torah, Other Sources of Defilement 11:2",
+  "q_practical": "If bread touches something that touched something impure, is the bread still affected?",
+  "q_conceptual": "Why does impurity stop spreading after just two steps for ordinary food?"
+ },
+ {
+  "id": "Mishneh Torah, Vessels 6:2",
+  "q_practical": "My wooden bowl cracked badly — does that make it ritually pure again?",
+  "q_conceptual": "Why does repeatedly patching small holes eventually count as making a whole new object?"
+ },
+ {
+  "id": "Mishneh Torah, Rest on a Holiday 6:11",
+  "q_practical": "I forgot to set up my pre-holiday cooking arrangement — can I still cook for Shabbat?",
+  "q_conceptual": "Why does a conditional stipulation solve the problem of not knowing which day is which?"
+ },
+ {
+  "id": "Mishneh Torah, Admission into the Sanctuary 2:10",
+  "q_practical": "My relative's burial got delayed by several days — how long am I restricted from Temple service?",
+  "q_conceptual": "Why does the day of burial matter separately from the day of death for these restrictions?"
+ },
+ {
+  "id": "Mishneh Torah, Vessels 7:13",
+  "q_practical": "My sandal is torn — does that make it ritually pure?",
+  "q_conceptual": "Why does the extent of damage to footwear determine its impurity status?"
+ },
+ {
+  "id": "Mishneh Torah, Robbery and Lost Property 16:9",
+  "q_practical": "I found money hidden in an old wall — is it mine or does it belong to the house's owner?",
+  "q_conceptual": "Why does the direction an object faces determine who it belongs to?"
+ },
+ {
+  "id": "Mishneh Torah, Vessels 27:1",
+  "q_practical": "Does a broken storage chest still count as ritually susceptible?",
+  "q_conceptual": "Why does the location where a chest was broken open change what kind of impurity it can catch?"
+ },
+ {
+  "id": "Mishneh Torah, Nazariteship 6:13",
+  "q_practical": "I got sprinkled with purification ashes but delayed my dip in the water — does that mess up my vow's timeline?",
+  "q_conceptual": "Why does bringing the sacrifice, not just immersing, restart the countdown?"
+ },
+ {
+  "id": "Mishneh Torah, Oaths 3:10",
+  "q_practical": "I forgot I'd even taken an oath and broke it by accident — am I still liable?",
+  "q_conceptual": "Why does forgetting everything about the oath excuse someone but partial memory wouldn't?"
+ },
+ {
+  "id": "Mishneh Torah, Defilement by a Corpse 11:6",
+  "q_practical": "Can I pass through a certain region in a sealed container without becoming impure?",
+  "q_conceptual": "Why is enclosed earth treated differently from open space in this ruling?"
+ },
+ {
+  "id": "Mishneh Torah, Those Who Defile Bed or Seat 13:6",
+  "q_practical": "I was only paying attention to protecting my shirt, not my coat — does that mean my coat is impure?",
+  "q_conceptual": "Why does mental focus on one item, but not another, determine which stays pure?"
+ }
+]

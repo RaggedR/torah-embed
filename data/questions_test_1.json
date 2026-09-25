@@ -1,0 +1,402 @@
+[
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 15:19",
+  "q_practical": "My wife says the baby isn't mine — does that make the child illegitimate?",
+  "q_conceptual": "Why does only the father's claim affect a child's legitimacy, not the mother's?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 15:22",
+  "q_practical": "Can two people who each might have a tainted family background marry each other?",
+  "q_conceptual": "Why can't two people with uncertain status marry, even though each alone might be fine?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 15:29",
+  "q_practical": "If I don't know who my father was, am I barred from marrying certain relatives?",
+  "q_conceptual": "Why doesn't uncertain parentage create marriage restrictions, when known incest would?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 15:5",
+  "q_practical": "If someone with mixed free and servant status has children, what happens to them?",
+  "q_conceptual": "Why can't a child of a partly-free, partly-servant father ever change his legal status?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 16:1",
+  "q_practical": "Can a man with a physical injury to his genitals get married?",
+  "q_conceptual": "Why does a genital injury restrict who a man is allowed to marry?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 16:3",
+  "q_practical": "What exactly counts as a disqualifying injury for these marriage restrictions?",
+  "q_conceptual": "Which body parts, if damaged, affect a man's marriage eligibility?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 16:4",
+  "q_practical": "Does a small cut in that area still disqualify someone from marrying?",
+  "q_conceptual": "How much of the tissue needs to remain intact to avoid disqualification?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 16:8",
+  "q_practical": "If someone has a condition causing urine to come from two places, can they still marry normally?",
+  "q_conceptual": "Why doesn't every anatomical abnormality in that area count as disqualifying?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 17:12",
+  "q_practical": "If my brother becomes a high priest, can he still marry my widow the normal way?",
+  "q_conceptual": "Why does a promotion to a higher religious office change the rules for a prior family obligation?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 17:15",
+  "q_practical": "If a man unknowingly marries a woman who wasn't a virgin, does he have to divorce her?",
+  "q_conceptual": "Why does a woman's sexual history matter specifically for marriage to someone in this role?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 17:16",
+  "q_practical": "Can someone in this role marry a woman he assaulted before he held the position?",
+  "q_conceptual": "Why does this restriction apply even to something that happened before he took the role?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 17:17",
+  "q_practical": "If someone got engaged to a girl who then grew up before the wedding, is the marriage still allowed?",
+  "q_conceptual": "Why does a change in physical maturity during an engagement create a problem?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 17:18",
+  "q_practical": "Does how a marriage ended — not just that it ended — affect whether someone can remarry?",
+  "q_conceptual": "Why would the method by which a marriage ended matter, not just that it ended?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 18:4",
+  "q_practical": "Does having relations with someone off-limits by custom, not by direct law, change her status?",
+  "q_conceptual": "Why does the source of a prohibition — written law versus later custom — affect its consequences?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 19:13",
+  "q_practical": "If my parents' marriage was a forbidden one, can I still marry into a restricted group?",
+  "q_conceptual": "Why wouldn't children inherit the consequences of their parents' forbidden marriage?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 19:6",
+  "q_practical": "Does having relations with your wife during a forbidden time affect any children born later?",
+  "q_conceptual": "Why does one kind of forbidden relations affect a man's children's status while another doesn't?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 19:7",
+  "q_practical": "If a woman gets pregnant before her status changes, is the baby affected by the later change?",
+  "q_conceptual": "Why is a child's status fixed at the moment of conception rather than at birth?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 19:8",
+  "q_practical": "If someone marries a woman who went through a formal release ceremony, what happens to their kids?",
+  "q_conceptual": "Why do some marriage restrictions carry over to children while similar-seeming ones don't?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 1:14",
+  "q_practical": "What is the legal penalty for male same-sex relations under this law?",
+  "q_conceptual": "Why is a minor treated differently from an adult partner in this offense?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 1:15",
+  "q_practical": "Can someone whose sex is medically ambiguous get married?",
+  "q_conceptual": "How does the law handle intimacy involving a person of uncertain or intermediate sex characteristics?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 1:4",
+  "q_practical": "Which forbidden relationships carry the death penalty of stoning?",
+  "q_conceptual": "Why are some sexual prohibitions punished by execution while others aren't?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 1:5",
+  "q_practical": "Which family relationships are punished by burning rather than some other method?",
+  "q_conceptual": "Why does the method of execution differ between different forbidden relationships?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 20:18",
+  "q_practical": "If it's unclear which of two men fathered a child, does the child owe obligations to both?",
+  "q_conceptual": "Why would uncertainty about parentage lead to double obligations instead of just picking one?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 21:17",
+  "q_practical": "Why shouldn't a woman let her young son walk behind her instead of beside her?",
+  "q_conceptual": "What social concern is this covering-hair and walking-order rule meant to prevent?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 21:25",
+  "q_practical": "Is it appropriate to arrange a marriage for a child before they're an adult?",
+  "q_conceptual": "Why does the law encourage marrying young but still forbid marrying too young?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 21:26",
+  "q_practical": "Is it okay to marry someone much older or younger than yourself?",
+  "q_conceptual": "Why does this rule treat men's and women's obligation to marry differently?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 21:30",
+  "q_practical": "Should I avoid marrying into a family with a history of a hereditary illness?",
+  "q_conceptual": "How many occurrences of a condition in a family are needed before it affects marriage decisions?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 22:14",
+  "q_practical": "Why would women be told to talk to each other while in a restroom?",
+  "q_conceptual": "What is this rule trying to prevent by keeping women audibly occupied in a private space?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 2:10",
+  "q_practical": "If a man has an affair, does that mean he's no longer allowed to be with his own wife?",
+  "q_conceptual": "Why does one exception break the general rule that infidelity doesn't affect the marriage itself?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 2:14",
+  "q_practical": "Can a man marry his uncle's stepdaughter?",
+  "q_conceptual": "Why would marrying a niece specifically be encouraged rather than merely permitted?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 2:2",
+  "q_practical": "Is a half-sister born outside of marriage still off-limits to marry?",
+  "q_conceptual": "Why would someone be liable for two separate violations from a single act?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 2:3",
+  "q_practical": "Can I marry my stepmother's daughter from a previous relationship?",
+  "q_conceptual": "Why does the label 'daughter of your father's wife' add a separate prohibition on top of 'sister'?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 2:4",
+  "q_practical": "If my father had a daughter through an affair rather than his wife, is she off-limits to me as a sister?",
+  "q_conceptual": "Why does it matter legally whether a woman was born within her mother's marriage or not?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 2:5",
+  "q_practical": "Is my aunt off-limits to marry even if she was born out of wedlock?",
+  "q_conceptual": "Why doesn't the circumstances of an aunt's birth change whether she's forbidden?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 2:7",
+  "q_practical": "If I get engaged to someone and then break it off, is her mother still off-limits to me forever?",
+  "q_conceptual": "Why does a broken engagement leave permanent restrictions rather than none?"
+ },
+ {
+  "id": "Mishneh Torah, Forbidden Intercourse 2:8",
+  "q_practical": "Does the punishment for this offense change depending on whether an earlier wife is still alive?",
+  "q_conceptual": "Why does the applicability of a punishment depend on someone else being alive, not just on the act?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 11:10",
+  "q_practical": "Is it against the law to recite a magic charm while holding an object?",
+  "q_conceptual": "Why does physically gesturing while speaking change the severity of casting a spell?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 11:11",
+  "q_practical": "Can you say a folk charm over someone bitten by a snake, even on the Sabbath?",
+  "q_conceptual": "Why would something normally forbidden be allowed here even though it doesn't actually work?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 11:13",
+  "q_practical": "Is it forbidden to try to contact a dead relative through a dream ritual?",
+  "q_conceptual": "What common feature defines this category of prohibited practices for reaching the dead?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 11:14",
+  "q_practical": "Is it wrong to visit a psychic medium for advice?",
+  "q_conceptual": "Why is the person who consults a medium punished less severely than the medium themselves?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 11:6",
+  "q_practical": "What counts as illegal fortune-telling using things like sand or a mirror?",
+  "q_conceptual": "What common method do all these different divination techniques share?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 11:8",
+  "q_practical": "Is it forbidden to check whether today is astrologically a good day for something?",
+  "q_conceptual": "Why is predicting 'good days' and 'bad days' treated as its own category of prohibition?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 11:9",
+  "q_practical": "Can I schedule an important trip based on what an astrologer told me was a good day?",
+  "q_conceptual": "Why would a magic trick that deceives an audience fall under the same prohibition as fortune-telling?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 12:14",
+  "q_practical": "Why shouldn't a single town have two courts that follow different legal customs?",
+  "q_conceptual": "How does a verse about not gashing your skin get applied to court unity in one city?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 2:8",
+  "q_practical": "What's the court procedure for prosecuting someone who cursed God?",
+  "q_conceptual": "Why do witnesses use a substitute name instead of repeating the actual curse in court?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 3:2",
+  "q_practical": "If I throw a stone at an idol as an insult, am I guilty of worshipping it?",
+  "q_conceptual": "Why does liability depend on matching the idol's traditional mode of worship rather than any act toward it?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 3:5",
+  "q_practical": "If I mock an idol by performing its usual ritual sarcastically, am I still liable?",
+  "q_conceptual": "Why does intent to mock not excuse someone from liability here?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 4:1",
+  "q_practical": "What happens to someone who convinces a whole town to worship an idol, even without worshipping it himself?",
+  "q_conceptual": "Why is the leader's punishment different from the punishment for the people he misled?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 4:10",
+  "q_practical": "If I stored my belongings in a town that gets condemned for idolatry, do I lose them?",
+  "q_conceptual": "Why does ownership, not just location, determine whether property gets destroyed?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 4:11",
+  "q_practical": "If I co-own an animal with someone from a condemned town, can I still use it?",
+  "q_conceptual": "Why does whether something can be physically divided change whether it's forbidden?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 4:12",
+  "q_practical": "Can I use a wig made from the hair of people from a condemned town?",
+  "q_conceptual": "Why is loose hair treated differently from a wig made of hair, if it comes from the same people?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 4:2",
+  "q_practical": "How many people need to be involved before a whole town can be condemned for idolatry?",
+  "q_conceptual": "Why do the numbers of both those who led astray and those misled need to fit specific thresholds?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 4:5",
+  "q_practical": "Does the exact wording used to persuade people matter for the group punishment to apply?",
+  "q_conceptual": "Why does the precise phrasing used to persuade people determine which punishment framework applies?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 4:7",
+  "q_practical": "If I lived in a condemned town but never worshipped the idol myself, do I still lose my property?",
+  "q_conceptual": "Why would an innocent person's property be destroyed along with everyone else's?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 5:1",
+  "q_practical": "If someone tries to convince just one friend to worship an idol, and neither actually does, is that still a crime?",
+  "q_conceptual": "Why is the attempt to persuade punished the same as the act itself?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 5:10",
+  "q_practical": "Is it wrong to just say the name of a pagan god out loud?",
+  "q_conceptual": "Why would merely mentioning a name, without any belief or ritual, be forbidden?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 5:11",
+  "q_practical": "Can I use the name of an idol that's mentioned in the Bible in ordinary conversation?",
+  "q_conceptual": "Why are idol names that appear in scripture treated differently from other idol names?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 5:2",
+  "q_practical": "What's the difference between misleading one person into idolatry versus misleading a whole city?",
+  "q_conceptual": "Why does a claim of prophecy change how someone who leads people to idolatry is judged?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 5:3",
+  "q_practical": "How does the court catch and prosecute someone secretly trying to convert a friend to idolatry?",
+  "q_conceptual": "Why is entrapment permitted for this offense when it's forbidden for every other crime?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 5:4",
+  "q_practical": "If I know someone did this, am I allowed to stay silent instead of testifying against him?",
+  "q_conceptual": "Why does the law override the usual duty to help even an enemy in this one case?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 5:5",
+  "q_practical": "Is agreeing to worship an idol, even without actually doing it, enough to be punished?",
+  "q_conceptual": "Why is it treated differently when someone tries to get people to worship himself versus another god?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 5:6",
+  "q_practical": "If someone gives accurate religious guidance but claims it came from a false source, what happens to them?",
+  "q_conceptual": "Why wouldn't giving correct instructions excuse someone who attributes it to a false source?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 5:8",
+  "q_practical": "What if a religious leader passes off someone else's spiritual message as his own?",
+  "q_conceptual": "What two distinct ways can someone qualify as this kind of false prophet?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 5:9",
+  "q_practical": "Can a respected religious figure escape punishment for false prophecy because of his reputation?",
+  "q_conceptual": "Why does this case require the highest level court rather than a local one?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 6:1",
+  "q_practical": "What does the ritual practice of channeling a spirit's voice involve, and is it forbidden?",
+  "q_conceptual": "Why does the punishment depend on whether the person acted deliberately or by accident?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 6:2",
+  "q_practical": "What is this other divination ritual using a bird bone, and why is it banned?",
+  "q_conceptual": "Why are these bone-and-trance rituals classified as idol worship rather than a separate category?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 6:4",
+  "q_practical": "What exactly needs to happen for someone to be held liable for this child-endangerment ritual?",
+  "q_conceptual": "Why is someone not liable if he passes his entire family line through, but is if only some of them?"
+ },
+ {
+  "id": "Mishneh Torah, Foreign Worship and Customs of the Nations 6:5",
+  "q_practical": "Does this prohibition apply to nieces and nephews, or only to one's own children?",
+  "q_conceptual": "Why would being asleep or blind exempt someone from liability for this act?"
+ },
+ {
+  "id": "Mishneh Torah, Foundations of the Torah 5:3",
+  "q_practical": "If a hostile government tries to force me to abandon a minor religious practice, must I resist even at risk of death?",
+  "q_conceptual": "Why does a government's intent to target religion in general change the normal rules for self-preservation?"
+ },
+ {
+  "id": "Mishneh Torah, Foundations of the Torah 5:9",
+  "q_practical": "Should someone be allowed to have an affair if doctors say it's the only way to save his life?",
+  "q_conceptual": "Why is this treated as an exception to the general rule that saving a life overrides most religious rules?"
+ },
+ {
+  "id": "Mishneh Torah, Foundations of the Torah 7:6",
+  "q_practical": "What made Moses' way of receiving prophecy different from that of other prophets?",
+  "q_conceptual": "Why does prophecy without an intermediary angel produce clearer, non-metaphorical understanding?"
+ },
+ {
+  "id": "Mishneh Torah, Foundations of the Torah 9:2",
+  "q_practical": "Can a religious leader who claims prophecy tell people to do something not covered by traditional law?",
+  "q_conceptual": "Why is it a mitzvah to obey a prophet's one-time instructions but not to accept a new faith from him?"
+ },
+ {
+  "id": "Mishneh Torah, Fringes 1:1",
+  "q_practical": "How many strands are required for the tassels on a garment's corners?",
+  "q_conceptual": "Why is the white strand not required to be dyed, unlike the blue one?"
+ },
+ {
+  "id": "Mishneh Torah, Fringes 1:10",
+  "q_practical": "If I braid several threads together, does that count as one strand or several for these tassels?",
+  "q_conceptual": "Why would eight twisted threads be treated as legally equivalent to a single strand?"
+ },
+ {
+  "id": "Mishneh Torah, Gifts to the Poor 9:18",
+  "q_practical": "If a fundraiser for a specific person collects more money than needed, where does the extra go?",
+  "q_conceptual": "Why does leftover charity money stay earmarked for its original purpose instead of going to general charity?"
+ },
+ {
+  "id": "Mishneh Torah, Gifts to the Poor 9:3",
+  "q_practical": "How often does a community typically collect and distribute charity funds?",
+  "q_conceptual": "Why is one type of communal charity fund considered universal while another is optional?"
+ },
+ {
+  "id": "Mishneh Torah, Gifts to the Poor 9:4",
+  "q_practical": "Is it a serious problem if a charity delays giving out food on a communal fast day?",
+  "q_conceptual": "Why is delaying ready-to-eat food treated so much more severely than delaying money or raw grain?"
+ },
+ {
+  "id": "Mishneh Torah, Heave Offerings 14:2",
+  "q_practical": "If a piece of sacred produce falls into a mixed batch of regular produce, can I still eat from the batch?",
+  "q_conceptual": "Why does the rule assume the smallest item fell in, and how does that affect the calculation?"
+ },
+ {
+  "id": "Mishneh Torah, Heave Offerings 6:10",
+  "q_practical": "If a woman has a forbidden relationship, does that permanently bar her from a benefit tied to her family line?",
+  "q_conceptual": "Why can't having a legitimate priestly descendant later undo this permanent disqualification?"
+ },
+ {
+  "id": "Mishneh Torah, Heave Offerings 6:14",
+  "q_practical": "Can someone with a complicated, partly disqualified family tree still benefit through a relative's status?",
+  "q_conceptual": "Why does eligibility trace through which side of the family — the priest or the Israelite — a woman came from?"
+ }
+]

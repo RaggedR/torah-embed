@@ -1,0 +1,886 @@
+[
+ {
+  "src": "nick-alexar.tex, Trust (verbatim)",
+  "q": "Why would God tell Abraham to sacrifice his firstborn son when God had already promised Abraham more children than the stars?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Nedarim 32a:9",
+     "text": "The Gemara expounds the verse \u201cand He brought him outside\u201d (Genesis 15:5): Abraham said before Him: Master of the Universe, I looked at my constellation and according to it I will have only one son, and a son has already been born to me, i.e., Ishmael. He said to him: Emerge from your astrology because there is no constellation "
+    },
+    {
+     "ref": "Sanhedrin 89b:9",
+     "text": "Rabbi Yo\u1e25anan said in the name of Rabbi Yosei ben Zimra: This means after the statement [devarav] of Satan, as it is written: \u201cAnd the child grew, and was weaned, and Abraham prepared a great feast on the day that Isaac was weaned\u201d (Genesis 21:8). Satan said before the Holy One, Blessed be He: Master of the Universe, this old ma"
+    },
+    {
+     "ref": "Sanhedrin 89b:11",
+     "text": "God said to Abraham: \u201cPlease take your son, your only, whom you love, Isaac\u201d (Genesis 22:2). When God said: \u201cYour son,\u201d Abraham said: I have two sons. When God said: \u201cYour only,\u201d Abraham said: This son is an only son to his mother, and that son is an only son to his mother. When God said: \u201cWhom you love,\u201d Abraham said: I love bo"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Taanit 4a:10",
+     "text": "The Gemara interprets each phrase of this verse: \u201cWhich I did not command,\u201d this is referring to the son of Mesha, king of Moab. King Mesha sacrificed his son, as it is stated: \u201cThen he took his firstborn son, who would reign after him, and he offered him as a burnt-offering\u201d (II Kings 3:27). \u201cAnd I did not speak,\u201d this is refer"
+    },
+    {
+     "ref": "Sanhedrin 89b:11",
+     "text": "God said to Abraham: \u201cPlease take your son, your only, whom you love, Isaac\u201d (Genesis 22:2). When God said: \u201cYour son,\u201d Abraham said: I have two sons. When God said: \u201cYour only,\u201d Abraham said: This son is an only son to his mother, and that son is an only son to his mother. When God said: \u201cWhom you love,\u201d Abraham said: I love bo"
+    },
+    {
+     "ref": "Nedarim 32a:9",
+     "text": "The Gemara expounds the verse \u201cand He brought him outside\u201d (Genesis 15:5): Abraham said before Him: Master of the Universe, I looked at my constellation and according to it I will have only one son, and a son has already been born to me, i.e., Ishmael. He said to him: Emerge from your astrology because there is no constellation "
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, The struggle with God (verbatim)",
+  "q": "Why did Jacob change his name to Israel?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Berakhot 13a:1",
+     "text": "not that the name Jacob will be entirely uprooted from its place, but that the name Israel will be the primary name to which the name Jacob will be secondary, as the Torah continues to refer to him as Jacob after this event. And it also says that the ultimate redemption will overshadow the previous redemption in the verse: \u201cDo n"
+    },
+    {
+     "ref": "Chullin 101b:9",
+     "text": "Rava raises an objection to this baraita: The verse states: \u201cAnd Jacob rose up from Beersheba; and the children of Israel carried Jacob their father, and their little ones, and their wives in the wagons that Pharaoh had sent to carry him\u201d (Genesis 46:5). This occurred before the Torah was given at Sinai, and therefore proves tha"
+    },
+    {
+     "ref": "Berakhot 13a:12",
+     "text": "The Gemara answers: It is different there, as the verse reverts back and God Himself refers to Jacob as Jacob, as it is written before his descent to Egypt: \u201cAnd God said to Israel in the visions of the night, and said, Jacob, Jacob, and he said, \u2018Here I am\u2019\u201d (Genesis 46:2)."
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Berakhot 13a:1",
+     "text": "not that the name Jacob will be entirely uprooted from its place, but that the name Israel will be the primary name to which the name Jacob will be secondary, as the Torah continues to refer to him as Jacob after this event. And it also says that the ultimate redemption will overshadow the previous redemption in the verse: \u201cDo n"
+    },
+    {
+     "ref": "Berakhot 13a:4",
+     "text": "Having mentioned the changing of Jacob\u2019s name, the Gemara addresses the changing of the names of Abraham and Sarah. What is the meaning of changing Abram\u2019s name to Abraham? As it is stated: \u201cAbram is Abraham\u201d (I Chronicles 1:27)."
+    },
+    {
+     "ref": "Berakhot 13a:11",
+     "text": "Again, the Gemara asks: But if that is so, one who calls Jacob Jacob, about whom it is written: \u201cYour name shall no longer be Jacob, but Israel\u201d (Genesis 32:29), also transgresses a mitzva."
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, closing (verbatim)",
+  "q": "Will the Messiah come and rebuild the Temple?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Megillah 17b:20",
+     "text": "And once Jerusalem is rebuilt, the Messiah, scion of the house of David, will come, as it is stated:"
+    },
+    {
+     "ref": "Sanhedrin 97b:7",
+     "text": "And the Messiah will come not in accordance with the opinion of Rabbi Akiva, who would interpret the verse: \u201cYet once, it is a little while, and I will shake the heavens and the earth\u201d (Haggai 2:6), to mean that the redemption would transpire soon after the destruction of the Temple."
+    },
+    {
+     "ref": "Avodah Zarah 5a:10",
+     "text": "And similarly, Rabbi Yosei says: The Messiah, son of David, will not come until all the souls of the body have been finished, i.e., until all souls that are destined to inhabit physical bodies will do so. As it is stated: \u201cFor I will not contend for ever, neither will I be always wroth; for the spirit that enwraps itself is from"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Megillah 17b:20",
+     "text": "And once Jerusalem is rebuilt, the Messiah, scion of the house of David, will come, as it is stated:"
+    },
+    {
+     "ref": "Sanhedrin 97b:7",
+     "text": "And the Messiah will come not in accordance with the opinion of Rabbi Akiva, who would interpret the verse: \u201cYet once, it is a little while, and I will shake the heavens and the earth\u201d (Haggai 2:6), to mean that the redemption would transpire soon after the destruction of the Temple."
+    },
+    {
+     "ref": "Sanhedrin 97a:1",
+     "text": "the Tabernacle of David that is fallen [hanofelet]\u201d (Amos 9:11). That is why the Messiah is called bar nifli. Rabbi Yitz\u1e25ak said to him that this is what Rabbi Yo\u1e25anan says: During the generation in which the Messiah, son of David, comes, Torah scholars decrease; and as for the rest of the people, their eyes fail with sorrow and"
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, The firstborn question",
+  "q": "If Abraham had gone through with it, would the inheritance have passed to Ishmael instead?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Bava Batra 116a:16",
+     "text": "\u00a7 The mishna teaches that this is the principle: Concerning anyone who precedes another with regard to inheritance, his descendants precede the other as well, and a father precedes all of his descendants. Rami bar \u1e24ama raises a dilemma: With regard to the claim of a father of the deceased\u2019s father and the claim of the brother of"
+    },
+    {
+     "ref": "Sanhedrin 59b:10",
+     "text": "The Gemara challenges: If that is so, the descendants of Ishmael should also be obligated to observe circumcision, as they are also the offspring of Abraham. The Gemara explains: The verse states: \u201cFor through Isaac, offspring shall be called yours\u201d (Genesis 21:12), which means that Ishmael\u2019s descendants are not called the offsp"
+    },
+    {
+     "ref": "Bava Batra 116b:3",
+     "text": "The Gemara notes that so too, it is reasonable to understand the mishna in that manner, as it teaches: This is the principle: Anyone who precedes another with regard to inheritance, his descendants precede the other as well. And if Isaac were alive, Isaac would precede Abraham and inherit Esau\u2019s property. Now, also, when Isaac i"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Sotah 13b:2",
+     "text": "The Gemara asks: And if Moses had not dealt with the burial of Joseph, would the Jewish people not have dealt with it? But isn\u2019t it written that after Moses died: \u201cAnd the bones of Joseph, which the children of Israel brought up out of Egypt, they buried in Shechem\u201d (Joshua 24:32), which indicates that the Jewish people complete"
+    },
+    {
+     "ref": "Sanhedrin 91a:14",
+     "text": "The Gemara relates: And on another occasion, the descendants of Ishmael and the descendants of Keturah came to judgment with the Jewish people before Alexander of Macedon. They said to the Jewish people before Alexander: The land of Canaan is both ours and yours, as it is written: \u201cAnd these are the generations of Ishmael, son o"
+    },
+    {
+     "ref": "Nedarim 31a:6",
+     "text": "GEMARA: The Gemara asks: And is a Jew excluded from the category of the descendants of Noah? They are also descendants of Noah. The Gemara answers: Since Abraham was sanctified and designated to possess a unique role in the world, all his descendants are called by his name and are no longer termed the descendants of Noah."
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, The firstborn question",
+  "q": "Who counts as the firstborn - the son born first, or the son of the first wife?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Bekhorot 47b:14",
+     "text": "Similarly, the second son who follows him is not considered the firstborn with regard to inheritance, as we require fulfillment of the verse: \u201cFor he is the first of his strength, the right of the firstborn is his\u201d (Deuteronomy 21:17), and this son is not the first. In addition, he is also not considered the firstborn with regar"
+    },
+    {
+     "ref": "Bekhorot 47b:13",
+     "text": "GEMARA: The mishna teaches that neither a son born by caesarean section nor the son who follows him are firstborn, neither with regard to inheritance nor with regard to redemption from a priest. The Gemara explains: The first son, born by caesarean section, is not considered the firstborn with regard to inheritance, as we requir"
+    },
+    {
+     "ref": "Bekhorot 47b:12",
+     "text": "In the case of a boy born by caesarean section and the son who follows him, both of them are not firstborn, neither with regard to inheritance nor with regard to redemption from a priest. Rabbi Shimon says: The first son is a firstborn with regard to inheritance if he is his father\u2019s first son, and the second son is a firstborn "
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Yevamot 24a:20",
+     "text": "The Gemara asks: But if there is no difference between the firstborn and the eldest, why does the Merciful One call the brother who enters levirate marriage the firstborn?"
+    },
+    {
+     "ref": "Bekhorot 47b:15",
+     "text": "\u00a7 The mishna teaches that Rabbi Shimon says: The first son is a firstborn with regard to inheritance if he is his father\u2019s first son, and the second son is a firstborn with regard to redemption from a priest for five sela coins. The Gemara explains: The verse states: \u201cAnd they have borne him children,\u201d and a caesarean section is"
+    },
+    {
+     "ref": "Bekhorot 46a:10",
+     "text": "In the case of one who had sons and married a woman who had not given birth; or if he married a woman who converted while she was pregnant, or a Canaanite maidservant who was emancipated while she was pregnant and she gave birth to a son, he is a firstborn with regard to redemption from a priest, as he opened his mother\u2019s womb, "
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, The firstborn question",
+  "q": "Jacob tricked his father into giving him the blessing meant for his older brother. Was that blessing still valid?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Bava Batra 123a:19",
+     "text": "Jacob said to her: What is his method of deceit of which I need be aware? Rachel said to him: I have a sister who is older than me, and he will not marry me off before he marries her off, even if he promises that he will do so. Jacob said to her: I am his brother, i.e., equal, in deceit, and he will not be able to deceive me. Th"
+    },
+    {
+     "ref": "Bava Batra 123a:18",
+     "text": "The Gemara now explains the second part of Rabbi Yonatan\u2019s explanation: And what was a demonstration of the modesty that Rachel possessed? As it is written: \u201cAnd Jacob told Rachel that he was her father\u2019s brother, and that he was Rebecca\u2019s son\u201d (Genesis 29:12). The Gemara asks: But isn\u2019t he the son of her father\u2019s sister? Why di"
+    },
+    {
+     "ref": "Megillah 13b:3",
+     "text": "Rather, it must be understood that when Jacob met Rachel, he said to her: Will you marry me? She said to him: Yes, but my father, Laban, is a swindler, and you will not be able to outwit him. Jacob alleviated her fears, as he said to her that he is her father\u2019s brother, referring not to their familial affiliation but rather to h"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Megillah 13b:2",
+     "text": "The Gemara explains: What was the modesty shown by Rachel? It is as it is written: \u201cAnd Jacob told Rachel that he was her father\u2019s brother, and that he was Rebecca\u2019s son\u201d (Genesis 29:12). It may be asked: Was he, Jacob, in fact her father\u2019s brother? But wasn\u2019t he the son of her father\u2019s sister?"
+    },
+    {
+     "ref": "Bava Batra 123a:18",
+     "text": "The Gemara now explains the second part of Rabbi Yonatan\u2019s explanation: And what was a demonstration of the modesty that Rachel possessed? As it is written: \u201cAnd Jacob told Rachel that he was her father\u2019s brother, and that he was Rebecca\u2019s son\u201d (Genesis 29:12). The Gemara asks: But isn\u2019t he the son of her father\u2019s sister? Why di"
+    },
+    {
+     "ref": "Bava Batra 123a:19",
+     "text": "Jacob said to her: What is his method of deceit of which I need be aware? Rachel said to him: I have a sister who is older than me, and he will not marry me off before he marries her off, even if he promises that he will do so. Jacob said to her: I am his brother, i.e., equal, in deceit, and he will not be able to deceive me. Th"
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, Matrilineal descent",
+  "q": "Why is a child Jewish if the mother is Jewish, but not if only the father is?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Yevamot 23a:9",
+     "text": "Conversely, if it would teach us only the case of a gentile woman, one might say that this is because she does not have any connection with the mitzvot and therefore her children are in no way Jewish. But since a Canaanite maidservant has a connection with the mitzvot, as she is obligated to observe the prohibitions in the same "
+    },
+    {
+     "ref": "Bekhorot 47a:13",
+     "text": "Rather, Rav Adda bar Ahava must be referring to a case where the daughter of a Levite became pregnant from an Israelite. But if so, why is the son\u2019s status determined by his mother\u2019s status in this instance? After all, it is written: \u201cBy their families, by their fathers\u2019 houses\u201d (Numbers 1:2), which indicates that the lineage of"
+    },
+    {
+     "ref": "Bekhorot 47a:9",
+     "text": "The Gemara answers: No; actually, her child was born from a Jew who did not have sons, and the reason the mishna makes reference specifically to a gentile or a maidservant is not due to the case of inheritance. Rather, it was necessary for the clause: But is not a firstborn with regard to redemption from a priest."
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Yevamot 17a:2",
+     "text": "Rav Yehuda continued his recounting: When I said this halakha, that there is a concern about the betrothal of gentiles nowadays, before Shmuel, he said to me: One need not worry about this, as your son from a Jewish woman is called your son, i.e., he inherits his lineage from you, and your son from a gentile woman is not called "
+    },
+    {
+     "ref": "Bekhorot 47a:13",
+     "text": "Rather, Rav Adda bar Ahava must be referring to a case where the daughter of a Levite became pregnant from an Israelite. But if so, why is the son\u2019s status determined by his mother\u2019s status in this instance? After all, it is written: \u201cBy their families, by their fathers\u2019 houses\u201d (Numbers 1:2), which indicates that the lineage of"
+    },
+    {
+     "ref": "Yevamot 23a:11",
+     "text": "The Gemara answers: Rabbi Yo\u1e25anan said in the name of Rabbi Shimon ben Yo\u1e25ai: The verse states: \u201cNeither shall you make marriages with them: Your daughter you shall not give unto his son, nor his daughter shall you take unto your son, for he will turn away your son from following Me\u201d (Deuteronomy 7:3\u20134). This teaches that your s"
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, The unpronounceable name",
+  "q": "Why is it forbidden to say God's name out loud?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Sanhedrin 63b:5",
+     "text": "The Gemara answers: As it is taught in a baraita that the meaning of the verse: \u201cAnd make no mention of the name of the other gods, neither let it be heard out of your mouth\u201d (Exodus 23:13), is that a person may not say to another: Wait for me next to such and such an object of idol worship. The meaning of the statement \u201cneither"
+    },
+    {
+     "ref": "Sanhedrin 63b:7",
+     "text": "The Gemara asks: Why must the prohibition against an inciter be derived from here? It is written explicitly in that regard, in the verse concerning the inciter\u2019s punishment: \u201cAnd all Israel shall hear, and fear, and shall do no more of any such wickedness as this is in your midst\u201d (Deuteronomy 13:12). This is clearly a prohibiti"
+    },
+    {
+     "ref": "Temurah 4a:2",
+     "text": "The Gemara counters: Why not, i.e., what is the difficulty? But isn\u2019t it written: \u201cYou shall fear the Lord your God, and Him you shall serve\u201d (Deuteronomy 6:13)? Fearing God certainly includes not pronouncing His name in vain, and this verse can therefore serve as the warning. The Gemara answers: That verse is a warning stated a"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Temurah 4a:1",
+     "text": "The Gemara responds: You cannot say that Deuteronomy 28:59 is referring to one who pronounces the name of Heaven in vain, as it is written: \u201cYou shall not curse the deaf\u201d (Leviticus 19:14), which prohibits all curses, even those using God\u2019s name. Granted, if you say that Deuteronomy 28:59 is referring to cursing another, one can"
+    },
+    {
+     "ref": "Temurah 4a:2",
+     "text": "The Gemara counters: Why not, i.e., what is the difficulty? But isn\u2019t it written: \u201cYou shall fear the Lord your God, and Him you shall serve\u201d (Deuteronomy 6:13)? Fearing God certainly includes not pronouncing His name in vain, and this verse can therefore serve as the warning. The Gemara answers: That verse is a warning stated a"
+    },
+    {
+     "ref": "Berakhot 45a:7",
+     "text": "Having mentioned these verses, the Gemara cites related matters. Rav \u1e24anan bar Abba said: From where is it derived that one who answers amen should not raise his voice louder than the one reciting the blessing? As it is stated: \u201cPraise God with me, and we will exalt His Name together\u201d; together and not with the respondent raisin"
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, The unpronounceable name",
+  "q": "When may the High Priest pronounce the name that nobody else may say?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Sanhedrin 63b:5",
+     "text": "The Gemara answers: As it is taught in a baraita that the meaning of the verse: \u201cAnd make no mention of the name of the other gods, neither let it be heard out of your mouth\u201d (Exodus 23:13), is that a person may not say to another: Wait for me next to such and such an object of idol worship. The meaning of the statement \u201cneither"
+    },
+    {
+     "ref": "Tamid 33b:5",
+     "text": "Furthermore, in the rest of the country, while reciting the Priestly Benediction the priests lift their hands opposite their shoulders, and in the Temple they raise them above their heads. That is the halakha with regard to all priests in the Temple, except for the High Priest, who does not raise his hands above the frontplate o"
+    },
+    {
+     "ref": "Kiddushin 71a:12",
+     "text": "The Sages taught: Initially, the Sages would transmit the twelve-letter name of God to any person. When the uninhibited ones who used the name disrespectfully increased, they would transmit it only to discreet members of the priesthood, and the discreet members of the priesthood would pronounce the name during the Priestly Bened"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Yoma 66a:11",
+     "text": "And the priests and the people standing in the Temple courtyard, when they would hear the Explicit Name emerging from the mouth of the High Priest, when the High Priest did not use one of the substitute names for God, they would kneel and prostrate themselves and fall on their faces, and say: Blessed is the name of His glorious "
+    },
+    {
+     "ref": "Kiddushin 71a:12",
+     "text": "The Sages taught: Initially, the Sages would transmit the twelve-letter name of God to any person. When the uninhibited ones who used the name disrespectfully increased, they would transmit it only to discreet members of the priesthood, and the discreet members of the priesthood would pronounce the name during the Priestly Bened"
+    },
+    {
+     "ref": "Yoma 19b:6",
+     "text": "\u00a7 It was taught in the mishna that Rabbi Zekharya ben Kevutal says: Many times I read before the High Priest from the book of Daniel. Rav \u1e24anan bar Rava taught this to \u1e24iyya bar Rav before Rav in the following manner: Rabbi Zekharya bar Kefutal said, and Rav demonstrated with his hand that the name should be pronounced Kevutal. "
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, Animal sacrifice",
+  "q": "Why was an animal sacrificed in the Temple every single day?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Chullin 22a:9",
+     "text": "The Gemara objects: The halakha that the bird burnt offering is sacrificed only during the day is derived from the verse: \u201cIn the day that he commanded the children of Israel to present their offerings\u201d (Leviticus 7:38), not from the halakha of the animal sin offering. The Gemara explains: The requirement of sacrificing the bird"
+    },
+    {
+     "ref": "Chullin 78a:15",
+     "text": "GEMARA: The Sages taught in a baraita: From where is it derived that the prohibition against slaughtering an animal itself and its offspring in a single day applies to sacrificial animals? It is derived from a verse, as the verse states: \u201cWhen a bull, or a sheep, or a goat, is born\u2026but from the eighth day and forward it may be a"
+    },
+    {
+     "ref": "Chullin 80b:3",
+     "text": "Similarly, the mishna teaches: If both animals were sacrificial animals slaughtered inside the Temple courtyard, the first is fit for sacrifice, and one who slaughters it is exempt from any punishment. But for the slaughter of the second animal, one incurs the forty lashes for the slaughter of an animal and its offspring on a si"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Yoma 70a:18",
+     "text": "Or perhaps this is what he is saying: The seven lambs were sacrificed with the daily morning offering and the bull of the Yom Kippur burnt-offering together with them, whereas the goat whose services are performed outside, i.e., in the Temple courtyard, was sacrificed with the daily afternoon offering."
+    },
+    {
+     "ref": "Yoma 70a:17",
+     "text": "GEMARA: It was taught in the mishna: Rabbi Akiva said the seven lambs were sacrificed with the daily morning offering; and the bull of the Yom Kippur burnt-offering; and the goat whose services are performed outside of the Sanctuary, i.e., in the Temple courtyard, with the daily afternoon offering. It is unclear whether the midd"
+    },
+    {
+     "ref": "Chullin 22a:9",
+     "text": "The Gemara objects: The halakha that the bird burnt offering is sacrificed only during the day is derived from the verse: \u201cIn the day that he commanded the children of Israel to present their offerings\u201d (Leviticus 7:38), not from the halakha of the animal sin offering. The Gemara explains: The requirement of sacrificing the bird"
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, Zeus in the Temple",
+  "q": "What should you do if someone tries to set up an idol in the Temple?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Taanit 29a:1",
+     "text": "You want to destroy the Temple; I have given you your hand. It is as though one idol said to the other: You are seeking to destroy the Temple by causing Israel to pray to you; I, too, give you a hand to assist you."
+    },
+    {
+     "ref": "Avodah Zarah 47a:21",
+     "text": "MISHNA: In the case of one whose house was adjacent to a house of idol worship and the dividing wall fell, it is prohibited to rebuild it. What should he do? He should withdraw into his own property four cubits and build the wall there."
+    },
+    {
+     "ref": "Sanhedrin 61b:18",
+     "text": "And Abaye said: From where do I say that one who worships idols due to love or fear is liable? As we learned in the mishna: One who worships idols is executed by stoning. This includes one who worships an idol, and one who slaughters an animal as an idolatrous offering, and one who burns incense as an idolatrous offering. What i"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Avodah Zarah 52a:12",
+     "text": "The Gemara asks: And the other tanna, Rabbi Yishmael, how does he interpret this verse? The Gemara answers: Rabbi Yishmael requires that verse for that which Rabbi Yitz\u1e25ak says, as Rabbi Yitz\u1e25ak says: From where is it derived that a Jew\u2019s object of idol worship requires interment? This is derived from a verse, as it is stated: \u201c"
+    },
+    {
+     "ref": "Avodah Zarah 52a:11",
+     "text": "The Gemara asks: And as for the opinion of Rabbi Akiva, we found a source for the halakha that a gentile\u2019s object of idol worship is prohibited immediately. From where do we derive that a Jew\u2019s object of idol worship is not forbidden until it is worshipped? Rav Yehuda said that the verse states: \u201cCursed be the man who shall make"
+    },
+    {
+     "ref": "Avodah Zarah 50b:2",
+     "text": "Rav Sheshet said: As for me, I am not a carpenter, nor am I the son of a carpenter, and yet I will resolve the difficulty. What is the difficulty that Rabba bar Yirmeya finds in the baraita? The baraita is difficult because of the statement of Rav Giddel, that the prohibited status of offerings brought in idol worship can never "
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, Assimilation",
+  "q": "What happens to a Jew who marries out and forgets the religion?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Pesachim 49a:13",
+     "text": "The Gemara asks: What is meant by this statement that their union will be inauspicious? Rav \u1e24isda said: The inauspicious nature of such a marriage can be identified based on the verse describing the return of a daughter of a priest to her father\u2019s house after marrying a non-priest. The verse is understood as mentioning that the "
+    },
+    {
+     "ref": "Yevamot 112a:13",
+     "text": "A dilemma was raised before the scholars: If the wife said: I am withdrawn from the Jews and the husband nullifies his part in the vow, what is the halakha with regard to the yavam once the husband has died? Does this vow apply to him? When she takes the vow, does it enter her mind that her husband will die and she will happen b"
+    },
+    {
+     "ref": "Sanhedrin 58a:2",
+     "text": "How so? If he married his maternal half sister, who was born before him and converted, he must divorce her. Although by Torah law they are considered unrelated, as a convert is considered to be reborn and all his previous family relationships are disregarded according to halakha, the Sages prohibited their marriage, lest he thin"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Yevamot 47b:15",
+     "text": "The baraita continues: Once he has immersed and emerged he is a Jew in every sense. The Gemara asks: With regard to what halakha is this said? It is that if he reverts back to behaving as a gentile, he nevertheless remains Jewish, and so if he betroths a Jewish woman, although he is considered to be an apostate Jew, his betrotha"
+    },
+    {
+     "ref": "Yevamot 78a:1",
+     "text": "how could a second-generation Egyptian convert ever achieve purity, so that it is permitted for his offspring, the third generation, to enter into the congregation? He may marry neither a Jew nor a female Egyptian convert. The Gemara answers: Perhaps it means that if he transgressed and married a convert or a Jewish woman, his s"
+    },
+    {
+     "ref": "Bekhorot 30b:3",
+     "text": "It is also taught in a baraita (Tosefta, Demai 2:4): With regard to a convert who accepted upon himself upon his conversion matters of Torah, i.e., all of the mitzvot, even if he is suspect with regard to one matter alone, he is suspect with regard to the entire Torah, and he is considered like a Jewish transgressor [meshummad],"
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, Esther's choice",
+  "q": "Is it right for a Jew to hide that they are Jewish in order to save their people?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Bava Batra 60b:21",
+     "text": "But concerning a situation such as this, the following principle is applied: Leave the Jews alone and do not impose decrees by which they cannot abide. It is better that they be unwitting sinners, who do not know that what they are doing is improper considering the circumstances, and not be intentional wrongdoers, who marry and "
+    },
+    {
+     "ref": "Beitzah 30a:9",
+     "text": "Rather, the accepted principle is: Leave the Jews alone; it is better that they be unwitting sinners and not be intentional sinners. If people engage in a certain behavior that cannot be corrected, it is better not to reprove them, as they are likely to continue regardless of the reproof, and then they will be sinning intentiona"
+    },
+    {
+     "ref": "Shabbat 151a:7",
+     "text": "The language of the mishna is precise according to Shmuel\u2019s opinion, as it teaches: If a gentile made someone a coffin and dug him a grave on Shabbat and then changed his mind and decided to give it to someone else, a Jew may be buried in it. Consequently, we can derive that if it is uncertain whether the coffin and grave were m"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Chagigah 5a:18",
+     "text": "On the same topic the Gemara states: \u201cThen My anger shall be kindled against them in that day, and I will forsake them, and I will hide My face from them, and they shall be devoured\u201d (Deuteronomy 31:17). Rav Bardela bar Tavyumei said that Rav said: Anyone who is not subject to His hiding of the face, i.e., whose prayers are inva"
+    },
+    {
+     "ref": "Menachot 43a:10",
+     "text": "The Gemara asks: What is the reason for the prohibition against selling a cloak with ritual fringes to a gentile? The Gemara answers: Here they interpreted that it is prohibited because of the concern that the gentile will visit a prostitute and observers will think that he is a Jew. Alternatively, Rav Yehuda said: It is prohibi"
+    },
+    {
+     "ref": "Avodah Zarah 22b:6",
+     "text": "The Gemara answers: With regard to themselves, i.e., other gentiles, as they are aware of each other\u2019s actions, they are fearful that they may be caught, and therefore will not engage in bestiality with an animal belonging to another gentile. But with regard to ourselves, Jews, as we are not aware of them and their behavior, the"
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, The struggle with God",
+  "q": "What does it mean to have struggled with God and with men, and prevailed?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Sanhedrin 107a:10",
+     "text": "Rava taught: What is the meaning of that which is written: \u201cAnd when I limped they rejoiced and gathered, the wretched gather themselves together against me, and those whom I know not; they tore and did not cease [dammu]\u201d (Psalms 35:15)? David said before the Holy One, Blessed be He: Master of the Universe. It is revealed and kn"
+    },
+    {
+     "ref": "Sotah 35a:7",
+     "text": "The verses continue: \u201cBut the men that went up with him said: We are not able to go up against the people; as they are stronger than us\u201d (Numbers 13:31). Rabbi \u1e24anina bar Pappa says: The spies said a serious statement at that moment. When they said: \u201cThey are stronger,\u201d do not read the phrase as: Stronger than us [mimmennu], but"
+    },
+    {
+     "ref": "Sotah 9b:18",
+     "text": "The verse states: \u201cAnd it came to pass, when she pressed him daily with her words, and urged him, that his soul was vexed unto death\u201d (Judges 16:16). The Gemara asks: What is the meaning of \u201cand urged him\u201d? How did she do so? Rabbi Yitz\u1e25ak of the school of Rabbi Ami says: At the moment immediately before his completion of the ac"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Sanhedrin 89b:10",
+     "text": "The Torah continues: \u201cAnd He said: Take, please [na], your son\u201d (Genesis 22:2). Rabbi Shimon bar Abba says: The word na is nothing other than an expression of entreaty. Why did God request rather than command that Abraham take his son? The Gemara cites a parable of a flesh-and-blood king who confronted many wars. And he had one "
+    },
+    {
+     "ref": "Sanhedrin 101b:2",
+     "text": "And it is written thereafter: \u201cAnd when he was in distress, he sought the Lord his God, and humbled himself greatly before the God of his fathers, and he prayed to Him and He was entreated of him, and He heard his supplication, and brought him back to Jerusalem into his kingdom; then Manasseh knew that the Lord He was God\u201d (II C"
+    },
+    {
+     "ref": "Sotah 42a:11",
+     "text": "The priest explains why the soldiers need not be terrified. \u201cFor the Lord your God is He that goes with you, to fight for you against your enemies, to save you\u201d (Deuteronomy 20:4). Remember that they come to war championed by flesh and blood, and you are coming championed by the Omnipresent. The Philistines came championed by Go"
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, Purim",
+  "q": "Why do we read the story of Esther every year?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Megillah 6b:28",
+     "text": "Rabbi Elazar said: The reason for the opinion of Rabban Shimon ben Gamliel is derived from here, as it is written: \u201cTo confirm this second letter of Purim\u201d (Esther 9:29), indicating that there are circumstances where the Megilla is read a second time (Jerusalem Talmud), i.e., when the year was intercalated after the Megilla was "
+    },
+    {
+     "ref": "Megillah 4b:9",
+     "text": "The Gemara asks: What is the reason of the first tanna? The Gemara explains that it is as it is written: \u201cTo keep these two days, according to their writing and according to their time, in every year\u201d (Esther 9:27), which indicates that Purim must be celebrated every year in similar fashion. Just as in every other year the large"
+    },
+    {
+     "ref": "Megillah 13a:20",
+     "text": "The verse states: \u201cAnd Esther obtained favor in the sight of all those who looked upon her\u201d (Esther 2:15). Rabbi Elazar said: This teaches that she appeared to each and every one as if she were a member of his own nation, and therefore she obtained favor in the eyes of all. The next verse states: \u201cSo Esther was taken to King Aha"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Megillah 29b:20",
+     "text": "However, according to the one who said that the portion of \u201cCommand the children of Israel, and say to them, My offering\u201d is read as Shekalim, does that portion ever occur at that time of the year? That portion usually occurs much later in the year, in the summer. The Gemara answers: Yes, it sometimes occurs that this portion is"
+    },
+    {
+     "ref": "Megillah 6b:28",
+     "text": "Rabbi Elazar said: The reason for the opinion of Rabban Shimon ben Gamliel is derived from here, as it is written: \u201cTo confirm this second letter of Purim\u201d (Esther 9:29), indicating that there are circumstances where the Megilla is read a second time (Jerusalem Talmud), i.e., when the year was intercalated after the Megilla was "
+    },
+    {
+     "ref": "Megillah 7a:4",
+     "text": "It was related that Rav and Rabbi \u1e24anina and Rabbi Yo\u1e25anan and Rav \u1e24aviva taught the statement cited below. The Gemara comments: Throughout the order of Moed, wherever this latter pair of Sages is mentioned, exchange Rabbi Yo\u1e25anan and insert Rabbi Yonatan in his place. They said: Esther sent to the Sages: Write me for future gen"
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, The open tent",
+  "q": "How should you treat a stranger who arrives at your tent?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Berakhot 6b:37",
+     "text": "And Rabbi \u1e24elbo said that Rav Huna said: One who is aware that another person is accustomed to greet him is not only obligated to return his greeting, but he must greet him first, as it is stated: \u201cSeek peace and pursue it\u201d (Psalms 34:15). If the other person extended his greeting to him and he did not respond, he is called a ro"
+    },
+    {
+     "ref": "Chullin 125b:7",
+     "text": "Rava said: According to Rabbi Yosei, even a tent that overlies impurity at a height above one handbreadth is referred to as touching. And what are the circumstances of a tent that is referred to as merely a tent and not as touching? The term tent is referring to the case of a structure that overlies both a person and a source of"
+    },
+    {
+     "ref": "Zevachim 113b:21",
+     "text": "Rather, Rav Mani said: This is not difficult, as here, the baraita that states that the scapegoat may be brought to the entrance of the Tent of Meeting is referring to before the confession, when it is still fit to enter the Temple. There, the mishna that states that it is not fit to be brought to the entrance of the Tent of Mee"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Bava Metzia 86b:18",
+     "text": "Despite the intense heat, Abraham wanted to invite guests. He sent Eliezer his slave to go outside to see if there were any passersby. Eliezer went out but did not find anyone. Abraham said to him: I do not believe you. The Gemara comments: This demonstrates the popular adage that people there, i.e., in Eretz Yisrael, say: Slave"
+    },
+    {
+     "ref": "Bava Metzia 87a:7",
+     "text": "The next verse states: \u201cAnd they said to him: Where is Sarah your wife? And he said: Behold, in the tent\u201d (Genesis 18:9). The Gemara explains that this verse serves to inform us that Sarah, our foremother, was a modest woman, as she remained inside while the guests were present. Rav Yehuda says that Rav says, and some say it is "
+    },
+    {
+     "ref": "Sanhedrin 44a:19",
+     "text": "The verse states: \u201cAnd it came to pass when Joshua was by Jericho that he lifted up his eyes and looked, and, behold, a man stood over against him with his sword drawn in his hand: And Joshua went to him and said to him, Are you for us or for our adversaries? And he said: No, but I am captain of the host of the Lord; I have now "
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, Nomads not farmers",
+  "q": "Is there something better about the life of a shepherd than the life of a farmer?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Sanhedrin 25b:17",
+     "text": "Rava says: The shepherd that the Sages said is disqualified from bearing witness is referring to both a shepherd of small livestock and a herder of large livestock."
+    },
+    {
+     "ref": "Sanhedrin 26b:15",
+     "text": "The Gemara answers: It means that in an ordinary case, the court proclaims about him that he is disqualified for having engaged in shepherding. If the court discovers that he regularly engages in this trade, it proclaims immediately that he is disqualified, and the court does not need to prove that he shepherds his flock in the "
+    },
+    {
+     "ref": "Keritot 28b:4",
+     "text": "The Gemara asks: What ultimately happened to Yissakhar from the village of Barkai? Yannai the king, and the queen were sitting and discussing food. The king said that goat meat is better food than lamb meat, and the queen said lamb meat is the better food. They said: Let us ask Yissakhar from the village of Barkai, as he is the "
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Temurah 15b:19",
+     "text": "And that man himself also said at the time of his death: I know for a fact with regard to myself that I have no transgression attributable to me but the sin of keeping that goat in my house alone, as I transgressed the statement of my colleagues, the Sages. As the Sages said in a mishna (Bava Kamma 79b): One may not raise small "
+    },
+    {
+     "ref": "Moed Katan 12a:11",
+     "text": "The baraita continues: And one may not assist gentile shepherds in pasturing their sheep in his field so that it will be fertilized, nor may one provide them with a shepherd to help herd their sheep all around the field so that it is completely fertilized. If the gentile shepherds were hired by the week, by the month, by the yea"
+    },
+    {
+     "ref": "Yevamot 63a:7",
+     "text": "And Rabbi Elazar said: All craftsmen are destined to stand upon and work the land, as it is stated: \u201cAnd all that handle the oar, the mariners, and all the pilots of the sea, shall come down from their ships, they shall stand upon the land\u201d (Ezekiel 27:29). And Rabbi Elazar said: There is no occupation lowlier than working the l"
+    }
+   ]
+  }
+ },
+ {
+  "src": "nick-alexar.tex, The Torah was written in Exile",
+  "q": "How did the Jews keep their faith while they were captives in Babylon?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Menachot 98a:10",
+     "text": "There is a dispute with regard to this matter between Rav \u1e24isda and Rav Yitz\u1e25ak bar Avdimi. One said that Shushan was depicted so that those who passed through the gate would know from where it was that they had come back to Jerusalem. The Jews returned once Persia had conquered Babylonia, and therefore they should give thanks t"
+    },
+    {
+     "ref": "Megillah 29a:4",
+     "text": "\u00a7 It is taught in a baraita: Rabbi Shimon ben Yo\u1e25ai says: Come and see how beloved the Jewish people are before the Holy One, Blessed be He. As every place they were exiled, the Divine Presence went with them. They were exiled to Egypt, and the Divine Presence went with them, as it is stated: \u201cDid I reveal myself to the house of"
+    },
+    {
+     "ref": "Rosh Hashanah 31a:18",
+     "text": "Rabbi Yo\u1e25anan said: For six months the Divine Presence lingered in the wilderness, waiting for the Jewish people, hoping that perhaps they would repent and it would be able to return to its place. When they did not repent, the Divine Presence said: Let them despair and be lost, as it is stated: \u201cBut the eyes of the wicked shall "
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Menachot 98a:10",
+     "text": "There is a dispute with regard to this matter between Rav \u1e24isda and Rav Yitz\u1e25ak bar Avdimi. One said that Shushan was depicted so that those who passed through the gate would know from where it was that they had come back to Jerusalem. The Jews returned once Persia had conquered Babylonia, and therefore they should give thanks t"
+    },
+    {
+     "ref": "Megillah 29a:4",
+     "text": "\u00a7 It is taught in a baraita: Rabbi Shimon ben Yo\u1e25ai says: Come and see how beloved the Jewish people are before the Holy One, Blessed be He. As every place they were exiled, the Divine Presence went with them. They were exiled to Egypt, and the Divine Presence went with them, as it is stated: \u201cDid I reveal myself to the house of"
+    },
+    {
+     "ref": "Arakhin 15a:16",
+     "text": "And they also tried God when they ascended from the sea, in accordance with the opinion of Rav Huna, as Rav Huna says: The Jewish people of that generation, during the Exodus, were of little faith. This is in accordance with a statement of Rabba bar Mari. As Rabba bar Mari says: What is the meaning of that which is written: \u201cBut"
+    }
+   ]
+  }
+ },
+ {
+  "src": "unorthodox.txt II",
+  "q": "Is the promise of the land conditional on how we behave towards each other?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Ketubot 83b:1",
+     "text": "in the case of one who immediately objects when the other comes to claim the portion he was promised, saying that he wrote what he did only in order to avoid a quarrel. However, in the case of one who waits while the other takes possession of the land before regretting his decision and requesting its return, the halakha is that "
+    },
+    {
+     "ref": "Bava Batra 122a:10",
+     "text": "The baraita also states: And the land was divided only with money, as it is stated: \u201cBetween the more and the fewer.\u201d With regard to what is this said? If we say it is with regard to beauty and ugliness, i.e., that those who receive inferior-quality land received monetary compensation from the others, is that to say we are deali"
+    },
+    {
+     "ref": "Berakhot 4a:17",
+     "text": "Apparently, at times, transgression does cause God\u2019s promise to go unfulfilled, as it was taught explicitly in a baraita with regard to the ostensibly redundant language in a verse in the Song of the Sea: \u201cUntil Your people will cross, Lord, until the people You have acquired will cross. You bring them in and plant them in the m"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Bava Batra 100a:7",
+     "text": "Rabbi Elazar said: What is the reasoning of Rabbi Eliezer? As it is written that after God promised Abraham Eretz Yisrael, He instructed him: \u201cArise, walk through the land, its length and its breadth; for I will give it to you\u201d (Genesis 13:17), in order that Abraham should thereby acquire the land. And the Rabbis, how do they in"
+    },
+    {
+     "ref": "Nedarim 11a:2",
+     "text": "The Gemara says: Whose opinion is expressed in the mishna? If you say it is that of Rabbi Meir, he does not hold that from a negative statement you can infer a positive statement. As we learned in a mishna: Rabbi Meir says that any condition that is not like the condition of the sons of the tribe of Gad and the sons of the tribe"
+    },
+    {
+     "ref": "Chullin 91b:12",
+     "text": "The Gemara explains another verse from Jacob\u2019s dream. \u201cAnd behold, the Lord stood over him and said: I am the Lord, the God of Abraham your father and the God of Isaac. The land upon which you lie, to you will I give it, and to your seed\u201d (Genesis 28:13). The Gemara asks: What is the greatness of this promise, i.e., why is it ex"
+    }
+   ]
+  }
+ },
+ {
+  "src": "unorthodox.txt II",
+  "q": "Must Jews eat together even if they disagree?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Pesachim 115a:6",
+     "text": "Rabbi Yo\u1e25anan said: Hillel\u2019s colleagues disagree with him, as it was taught in another baraita: I might have thought that one should wrap matzot and bitter herbs together and eat them in the manner that Hillel eats them; therefore the verse states: \u201cThey shall eat it with matzot and bitter herbs,\u201d meaning that one may eat even t"
+    },
+    {
+     "ref": "Berakhot 45a:10",
+     "text": "The mishna rules that three who ate as one are required to join together and recite Grace after Meals. The Gemara discusses this halakha further: It was stated: Two who ate as one and wish to join together in a zimmun, although they are under no obligation, are they permitted to do so? Rav and Rabbi Yo\u1e25anan disagreed: One said: "
+    },
+    {
+     "ref": "Chullin 107b:17",
+     "text": "\u00a7 The mishna teaches that Rabban Shimon ben Gamliel says: Two guests may eat together on one table, this one eating meat and that one eating cheese. Rav \u1e24anan bar Ami says that Shmuel says: They taught this halakha only in a case where the guests do not know each other, as they will not eat of each other\u2019s food. But in a situati"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Bava Batra 137b:11",
+     "text": "Rabbi Abba bar Memel said: And they do not disagree with each other:"
+    },
+    {
+     "ref": "Pesachim 89b:4",
+     "text": "The Gemara rejects this proof: They say: No, a comparison should not be drawn. Including additional people of individual minds is different. Even if both of them together would eat a quantity equivalent to a single member of the group, the other members of the group can nonetheless say to him: It is not pleasant for us to have a"
+    },
+    {
+     "ref": "Berakhot 45b:8",
+     "text": "The Gemara now attempts to prove the opposite: Rather, conclude that Rabbi Yo\u1e25anan is the one who said: If they wanted to join together, they may not form a zimmun, as Rabba bar bar \u1e24ana said that Rabbi Yo\u1e25anan said: Two people who ate as one, one fulfills his obligation to recite a blessing with the recitation of the blessing o"
+    }
+   ]
+  }
+ },
+ {
+  "src": "unorthodox.txt II",
+  "q": "Does the covenant still hold?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Rosh Hashanah 17b:7",
+     "text": "Rav Yehuda said: A covenant was made with the thirteen attributes that they will not return empty-handed, meaning that if one mentions them, he will certainly be answered, as it is stated in this regard: \u201cBehold, I make a covenant\u201d (Exodus 34:10)."
+    },
+    {
+     "ref": "Bava Metzia 48a:5",
+     "text": "And when the verse repeats three of these cases after stating that each individual admitted that he lied and is liable to return the item that he misappropriated, it is written: \u201cAnd then it shall be, if he has sinned, and is guilty, that he shall restore that which he took by robbery, or the thing that he has gotten by oppressi"
+    },
+    {
+     "ref": "Pesachim 69b:10",
+     "text": "The Gemara comments: And it is necessary to state this ruling in both cases, for had Rav taught us that the halakha is in accordance with the opinion of Rabbi Akiva only with regard to the Paschal lamb, the conclusion would have been: It is specifically there that the facilitators of a mitzva that can be performed the day before"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Rosh Hashanah 17b:7",
+     "text": "Rav Yehuda said: A covenant was made with the thirteen attributes that they will not return empty-handed, meaning that if one mentions them, he will certainly be answered, as it is stated in this regard: \u201cBehold, I make a covenant\u201d (Exodus 34:10)."
+    },
+    {
+     "ref": "Gittin 60b:6",
+     "text": "Rabbi Yo\u1e25anan says: The Holy One, Blessed be He, made a covenant with the Jewish people only for the sake of the matters that were transmitted orally [be\u2019al peh], as it is stated: \u201cFor on the basis of [al pi] these matters I have made a covenant with you and with Israel\u201d (Exodus 34:27)."
+    },
+    {
+     "ref": "Sotah 37b:4",
+     "text": "The baraita concludes: And there is no mitzva written in the Torah for which forty-eight covenants were not established."
+    }
+   ]
+  }
+ },
+ {
+  "src": "unorthodox.txt II",
+  "q": "Is the table where we eat a kind of temple?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Zevachim 56a:6",
+     "text": "Rava said: The halakha concerning eating is different. The Torah specifically includes these chambers in addition to the Temple courtyard itself for eating offerings of the most sacred order. By contrast, with regard to slaughtering offerings of lesser sanctity and the punishment for entering the courtyard in a state of ritual i"
+    },
+    {
+     "ref": "Zevachim 56a:5",
+     "text": "The Gemara asks: And do they not have sanctity by Torah law? But isn\u2019t it taught in a baraita: With regard to the chambers that are built in the non-sacred area of the Temple Mount and open to the sacred area, from where is it derived that the priests enter there and eat there offerings of the most sacred order and the remainder"
+    },
+    {
+     "ref": "Menachot 86b:6",
+     "text": "Similarly, with regard to the Table of the shewbread, located in the north of the Sanctuary, and the Candelabrum, located in the south of the Sanctuary, Rabbi Zerika says that Rabbi Elazar says: God said to the Jewish people: I do not require the Table for eating, nor do I require the Candelabrum for its illumination. In evidenc"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Menachot 98b:21",
+     "text": "The Gemara replies: But according to your reasoning, the last question applies according to the one who said the tables were positioned from east to west as well: Where would one place the Table built by Moses? If the ten tables of Solomon occupied the entire twenty cubits of the inner half of the Sanctuary, how could Moses\u2019 Tab"
+    },
+    {
+     "ref": "Menachot 86b:6",
+     "text": "Similarly, with regard to the Table of the shewbread, located in the north of the Sanctuary, and the Candelabrum, located in the south of the Sanctuary, Rabbi Zerika says that Rabbi Elazar says: God said to the Jewish people: I do not require the Table for eating, nor do I require the Candelabrum for its illumination. In evidenc"
+    },
+    {
+     "ref": "Menachot 98b:20",
+     "text": "And moreover, if the ten tables occupied the entire width of the Sanctuary, how would the High Priests pass them in order to enter the Holy of Holies on Yom Kippur? And moreover, if the tables were positioned in this manner we find that five of the ten tables were located in the south of the Sanctuary, whereas the Torah states t"
+    }
+   ]
+  }
+ },
+ {
+  "src": "Hafez, Ghazal 255",
+  "q": "I see no friendship in anyone. What became of friends?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Bava Batra 16b:5",
+     "text": "The Gemara asks: How did they all know at the same time what had happened to Job so that the three of them came together? There are those who say that they each had a crown which displayed certain signs when something happened to one of the others. And there are those who say they each had trees and when the trees withered they "
+    },
+    {
+     "ref": "Yevamot 122b:2",
+     "text": "But didn\u2019t they say to her: Where is our friend? This indicates that she was answering their question rather than speaking offhandedly. The Gemara explains: Once she saw them, she cried. They said to her: Where is our friend? Then she said to them: He died, and I buried him. Since she cried before being questioned, the crying wa"
+    },
+    {
+     "ref": "Sanhedrin 57b:11",
+     "text": "\u00a7 The Sages taught in a baraita with regard to the verse: \u201cNo one [ish ish] shall approach any that is kin to him, to uncover their nakedness\u201d (Leviticus 18:6): The verse could have stated: One [ish] shall not approach. Why must the verse state \u201cno one\u201d? It is to include the gentiles, who are prohibited from engaging in forbidde"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Bava Batra 16b:5",
+     "text": "The Gemara asks: How did they all know at the same time what had happened to Job so that the three of them came together? There are those who say that they each had a crown which displayed certain signs when something happened to one of the others. And there are those who say they each had trees and when the trees withered they "
+    },
+    {
+     "ref": "Berakhot 63a:15",
+     "text": "Several ethical tenets and guidelines for life were taught in a baraita. Rabbi Yehuda HaNasi says: One should never have too many friends in his house, i.e., people should not become accustomed to being overly intimate in his house, as it is stated: \u201cThere are friends that one has to his own hurt\u201d (Proverbs 18:24); one with frie"
+    },
+    {
+     "ref": "Sanhedrin 100b:7",
+     "text": "Rather, perhaps the book poses a difficulty because it is written there: Prevent the multitudes from inside your house, and do not bring everyone into your house (Ben Sira 11:37). But didn\u2019t Rabbi Yehuda HaNasi also say it, as it is taught in a baraita that Rabbi Yehuda HaNasi says: A person should never have many friends inside"
+    }
+   ]
+  }
+ },
+ {
+  "src": "personal correspondence",
+  "q": "If money is held in trust for someone, can a parent pressure them into signing it over?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Kiddushin 29a:5",
+     "text": "The Gemara answers: There is an additional impediment to reneging on an agreement with another commoner. Is that to say that a commoner who gave a seller money and changed his mind before acquiring the item is not forced to accept upon himself the curse of: He Who exacted payment from the generation of the flood (see Genesis, ch"
+    },
+    {
+     "ref": "Gittin 14a:16",
+     "text": "The Gemara asks with regard to this baraita: In a case where the agent accepts upon himself to bring a deposit to its owners, let the sender, who is the bailee of the deposit, say to the agent: It is not the will of the owner of the deposit that his deposit will be in the possession of another. Since this transfer is not in the "
+    },
+    {
+     "ref": "Bava Batra 52a:1",
+     "text": "If one accepted a deposit from a minor, he cannot return it to him, as a minor is unable to properly safeguard the item. Instead, he must make a safe investment [segulla] for him, and if the minor dies, he must return it to his heirs."
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Bava Metzia 49a:9",
+     "text": "The Gemara asks: And if it enters your mind that reneging on a verbal commitment unaccompanied by an act of acquisition constitutes an act of bad faith, how did Rabbi Yo\u1e25anan ben Matya tell his son to renege? The Gemara answers: This is not difficult; it is different there in that case, as the laborers themselves do not rely on "
+    },
+    {
+     "ref": "Ketubot 46b:5",
+     "text": "The Gemara asks: But one can say that the betrothal money should go to her, as one can derive from the verse that there is no money for this master but there is money for the woman herself when she leaves her father\u2019s domain. The Gemara refutes this suggestion: Now consider, her father accepts her betrothal, i.e., he can accept "
+    },
+    {
+     "ref": "Ketubot 69b:5",
+     "text": "MISHNA: With regard to one who transfers money by means of a third party for his daughter to purchase a field after she marries, is the daughter allowed to assert control over the money? If she says after she marries: My husband is trustworthy for me, so give him the money to buy the property for me, her wishes are not honored. "
+    }
+   ]
+  }
+ },
+ {
+  "src": "personal notes, on bitachon (trust)",
+  "q": "What is trust in God, and what does it mean to ask for it?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Berakhot 8a:1",
+     "text": "What is the meaning of that which is written: \u201cBut as for me, let my prayer be unto You, Lord, in a time of favor; O God, in the abundance of Your mercy, answer me with the truth of Your salvation\u201d (Psalms 69:14)? It appears that the individual is praying that his prayers will coincide with a special time of Divine favor. When i"
+    },
+    {
+     "ref": "Berakhot 6b:4",
+     "text": "The verse continues: \u201cLet him trust in the name of the Lord.\u201d The Gemara asks: What is the reason that God is so exacting with this person? The Gemara answers: Because he should have relied on the name of the Lord, and trusted that he would not incur any loss if he postponed dealing with his mundane matters until after prayer in"
+    },
+    {
+     "ref": "Avodah Zarah 4a:6",
+     "text": "And this is the same as that which Rabbi Alexandri says: What is the meaning of that which is written: \u201cAnd it shall come to pass in that day, that I will seek to destroy all the nations\u201d (Zechariah 12:9)? \u201cI will seek\u201d from whom? Does God need to seek permission? Rather, the Holy One, Blessed be He, says: I will seek and search"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Berakhot 10b:1",
+     "text": "Similarly, Rabbi \u1e24anan said: Even if the master of dreams, in a true dream, an angel (Ma\u2019ayan HaBerakhot) tells a person that tomorrow he will die, he should not prevent himself from praying for mercy, as it is stated: \u201cFor in the multitude of dreams and vanities there are many words; but fear God\u201d (Ecclesiastes 5:6). Although t"
+    },
+    {
+     "ref": "Sotah 31a:3",
+     "text": "\u00a7 On that same day Rabbi Yehoshua ben Hyrcanus taught that Job served the Holy One, Blessed be He, only out of love, as it is stated: \u201cThough He will slay me, still I will trust in Him [lo]\u201d (Job 13:15). The mishna continues that the word lo in the verse is ambiguous as to whether it is indicative of Job expressing his yearning "
+    },
+    {
+     "ref": "Sotah 48b:19",
+     "text": "\u00a7 The mishna states that from the time when the Second Temple was destroyed men of faith ceased. Rabbi Yitz\u1e25ak says: These are people who believe in the Holy One, Blessed be He, and place their trust in Him in all their ways. As it is taught in a baraita: Rabbi Eliezer the Great says that whoever has bread in his basket to eat t"
+    }
+   ]
+  }
+ },
+ {
+  "src": "personal notes",
+  "q": "What does it mean for a person's talents to be recognised and put to good use?",
+  "hits": {
+   "zero-shot": [
+    {
+     "ref": "Ketubot 28a:8",
+     "text": "MISHNA: And these are deemed credible to testify in their majority with regard to what they saw in their minority. A person is deemed credible to say: This is my father\u2019s handwriting, and to say: This is my teacher\u2019s handwriting; and to say: This is my brother\u2019s handwriting, even though he never saw their handwriting after reach"
+    },
+    {
+     "ref": "Taanit 10b:4",
+     "text": "It is taught in another baraita: Not everyone who wishes to make himself an individual may do so, and nor may everyone who wishes to act like a student do so. This is the statement of Rabbi Shimon ben Elazar. Rabban Shimon ben Gamliel says: In what case is this statement said? It is said with regard to a matter of praise, e.g., "
+    },
+    {
+     "ref": "Yevamot 104b:8",
+     "text": "This is that which Rabbi Zeira said: Whatever is fitting to be mixed, mixing is not indispensable to it, and it is valid even if it is not mixed. And whatever is not fit to be mixed, e.g., if the quantity of flour is so great that the ingredients cannot be properly mixed, mixing is indispensable for it and it is invalid if it ha"
+    }
+   ],
+   "torah-embed": [
+    {
+     "ref": "Bekhorot 5a:17",
+     "text": "The Gemara rejects this proof: But perhaps the total amount of shekels does equal the amount of a talent, but the verse calculates the general amounts, i.e., the hundreds of talents, in talents, and the verse does not calculate the details, i.e., any amount less than one hundred talents, in talents, but in shekels."
+    },
+    {
+     "ref": "Taanit 10b:4",
+     "text": "It is taught in another baraita: Not everyone who wishes to make himself an individual may do so, and nor may everyone who wishes to act like a student do so. This is the statement of Rabbi Shimon ben Elazar. Rabban Shimon ben Gamliel says: In what case is this statement said? It is said with regard to a matter of praise, e.g., "
+    },
+    {
+     "ref": "Keritot 3a:20",
+     "text": "And if you say the mishna mentions these positive mitzvot to teach that one brings an offering for unwittingly failing to perform them, does one in fact bring an offering in such a case? But isn\u2019t it taught in a baraita: The entire Torah is juxtaposed to idolatry, as it is written: \u201cYou shall have one law [torah] for him that do"
+    }
+   ]
+  }
+ }
+]
